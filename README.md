@@ -19,7 +19,7 @@ The actual status is just the change of some dark colors to the high contrasted 
 
 This will be improved for other layout "areas", in future versions. Fell free to contribute.
 
-## Preview of the Original by SpartanJ
+## Preview
 
 ![Preview of WhatsApp Dark home](./images/screenshots/home.png)
 
