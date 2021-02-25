@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.0
+@version     1.0.2
 @homepageURL https://github.com/5jubsDelta/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsDelta/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.0 (2020-07-01) */
+/*! WhatsApp Dark v1.0.2 (2021-02-25) */
 /*! Repository: https://github.com/5jubsDelta/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -728,7 +728,7 @@ html[dir] .app-wrapper-web ._36Q2N {
 }
 
 .msg-unread {
-	background-color: rgba(85,85,85,0.25);   
+	background-color: rgba(85,85,85,0.25);
 }
 
 .msg-unread-body {
@@ -737,12 +737,12 @@ html[dir] .app-wrapper-web ._36Q2N {
 }
 
 .intro {
-	background-color: transparent;   
+	background-color: transparent;
 }
 
 .message-text strong,
 .media-caption strong {
- 	color: #fff;   
+ 	color: #fff;
 }
 
 .compose-popup-panel,
@@ -754,7 +754,7 @@ html[dir] .app-wrapper-web ._36Q2N {
 .chatlist-panel-search,
 input
 {
- background-color: transparent!important;   
+ background-color: transparent!important;
 }
 
 .pane-chat-header-subtitle
@@ -764,7 +764,7 @@ input
 
 .message-system
 {
- 	background-color: #666;   
+ 	background-color: #666;
 }
 
 .chat-meta
@@ -774,53 +774,53 @@ input
 
 .chatlist .chat-body, .chatlist .header-body
 {
- 	border: 0px;   
+ 	border: 0px;
 }
 
 .section-header
 {
-    background-color: transparent;   
+    background-color: transparent;
 }
 
 .list-search .input-search
 {
-    color: #fff;   
+    color: #fff;
 }
 
 .chatlist .chat:hover:after, .chatlist .chat.hover:after, .chatlist .chat.active:after, .chatlist .chat.active:after
 {
-	border-top-color: #505050;   
+	border-top-color: #505050;
 }
 
 .message-text, .media-caption, .document-body, .dropdown-item-action
 {
-	color: #d3d3d3;   
+	color: #d3d3d3;
 }
 
 .dropdown-item-hover .dropdown-item-action
 {
-	color: #333;   
+	color: #333;
 }
 
 .message-system
 {
     color: rgba(255, 255, 255, 0.95);
-    text-shadow: none;   
+    text-shadow: none;
 }
 
 .list-action
 {
-	background-color: #222;   
+	background-color: #222;
 }
 
 .list-action:hover
 {
-	background-color: #2c2c2c;   
+	background-color: #2c2c2c;
 }
 
 .drawer-section.well, .well, .well-simple, .well-chat, .multi-vcard-dialog-contact
 {
-	background-color: #222;   
+	background-color: #222;
 }
 
 .audio-duration
@@ -835,12 +835,12 @@ input
 
 .chatlist-panel .chatlist-panel-body
 {
-	background-color: transparent;   
+	background-color: transparent;
 }
 
 .Gd51Q._3sgkv
 {
-	color: inherit;   
+	color: inherit;
 }
 
 html[dir=ltr] ._1i1U7.jZ4tp { background: transparent!important; }
@@ -872,12 +872,12 @@ html[dir] .L89LI
 .header-title,
 .emoji-input.emoji-input-text-large .emoji-input-body
 {
-    color: #c6c6c6 !important;   
+    color: #c6c6c6 !important;
 }
 
 .pane-chat-header:after
 {
-	z-index: -1;   
+	z-index: -1;
 }
 
 html[dir] ._1mq8g
@@ -895,16 +895,16 @@ html[dir] ._3qlW9,
 html[dir] ._1CkkN,
 html[dir] ._1AKfk,
 .drawer-chat-search .chatlist-panel-body,
-html[dir] ._2uLFU, 
+html[dir] ._2uLFU,
 html[dir] ._1ArIP,
 html[dir] ._1CRb5
 {
-	background-color: #222222;   
+	background-color: #222222;
 }
 
 .chat-body, .header-body
 {
-	border-top: 0px;   
+	border-top: 0px;
 }
 
 .chat:hover:after, .chat.hover:after, .chat.active:after, .chat.active:after
@@ -918,7 +918,7 @@ html[dir] ._1CRb5
 .DYGf2,
 html[dir=ltr] ._2dGjP
 {
-	color: #c2c2c2;   
+	color: #c2c2c2;
 }
 
 html[dir=ltr] ._28zBA._14ou2
@@ -929,12 +929,12 @@ html[dir=ltr] ._28zBA._14ou2
 html[dir] ._2MSJr
 {
     background-color: #202020;
-	border-color: #666;    
+	border-color: #666;
 }
 
 html[dir] ._1CkkN:hover
 {
-	background-color: #1b1b1b;   
+	background-color: #1b1b1b;
 }
 
 html[dir] ._2iSIf
@@ -950,17 +950,17 @@ html[dir] ._2iSIf
 
 .input-emoji-search
 {
-	color: #666!important;   
+	color: #666!important;
 }
 
 html[dir=ltr] ._2Cju4.jZ4tp
 {
-	background: none;   
+	background: none;
 }
 
 .Bmrty
 {
-	color: rgba(255, 255, 255, 0.6);   
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .message, .media-caption
@@ -985,7 +985,7 @@ html[dir] .gQzdc._3sdhb input
 
 html[dir] .FstZn
 {
-	color: #cecece;   
+	color: #cecece;
 }
 
 html[dir] ._2EXPL,
@@ -1015,23 +1015,23 @@ html[dir] ._3oju3
 
 html[dir] ._2EXPL._1f1zm
 {
-   background-color: #2a2a2a;  
+   background-color: #000000;
 }
 
 html[dir] ._2bXVy
 {
-    background-color: #1f1f1f!important;  
+    background-color: #1f1f1f!important;
 }
 
 html[dir] ._2EXPL._1f1zm:after,
-html[dir] ._2EXPL:hover ._3j7s9, 
+html[dir] ._2EXPL:hover ._3j7s9,
 html[dir] ._2EXPL._3df_h ._3j7s9
 {
-	border-top-color: #666;   
+	border-top-color: #666;
 }
 
-html[dir] ._2EXPL:hover:after, 
-html[dir] ._2EXPL._3df_h:after, 
+html[dir] ._2EXPL:hover:after,
+html[dir] ._2EXPL._3df_h:after,
 html[dir] ._2EXPL._1f1zm:after
 {
     border-top: 1px solid #666;
@@ -1039,7 +1039,7 @@ html[dir] ._2EXPL._1f1zm:after
 
 html[dir] ._2EXPL:hover
 {
-	background-color: #3e3e3e;   
+	background-color: #3e3e3e;
 }
 
 body
@@ -1060,25 +1060,25 @@ body
 html[dir] ._1GX8_,
 html[dir] ._2jVLL
 {
-	background-color: transparent;   
+	background-color: transparent;
 }
 
 html[dir] ._3j7s9
 {
-	border-top: transparent;   
+	border-top: transparent;
 }
 
 ._3Bxar,
 ._7HWvs
 {
- 	color: #cecece; 
-    font-size: 14px;  
+ 	color: #cecece;
+    font-size: 14px;
 }
 
 ._3NFp9,
 ._1bX-5
 {
-	font-size: 12px;   
+	font-size: 12px;
 }
 
 ._2EXPL.CxUIE ._1AwDx,
@@ -1092,12 +1092,12 @@ html[dir] ._1qdni,
 html[dir] ._3ETD3,
 html[dir] ._1CnF3
 {
- 	background-color: #2e2e2e;   
+ 	background-color: #2e2e2e;
 }
 
 html[dir] .R0lQ6
 {
- 	background-color: #3e3e3e;   
+ 	background-color: #3e3e3e;
 }
 
 html[dir] .mnt6B,
@@ -1108,18 +1108,18 @@ html[dir] ._3XpR2
 
 .Gz6Af
 {
- 	color: #cecece;   
+ 	color: #cecece;
 }
 
-html[dir] ._2-ptl ._27BA_, 
+html[dir] ._2-ptl ._27BA_,
 html[dir] ._3WvAg ._27BA_
 {
-	background-color: rgba(0,0,0,0.2);    
+	background-color: rgba(0,0,0,0.2);
 }
 
 html[dir=ltr] ._1fkhx
 {
- 	border-left: 1px solid #666;   
+ 	border-left: 1px solid #666;
 }
 
 html[dir] ._3gUiM
@@ -1129,11 +1129,11 @@ html[dir] ._3gUiM
 
 ._228tA
 {
-	overflow: hidden;    
+	overflow: hidden;
 }
 
-html[dir] ._1drQ-, 
-html[dir] ._1dGTK, 
+html[dir] ._1drQ-,
+html[dir] ._1dGTK,
 html[dir] .r3Nu1
 {
     background-color: #2e2e2e;
@@ -1156,19 +1156,19 @@ html[dir] .wDFKR
 html[dir] .tail-container,
 html[dir] .tail-container.highlight
 {
-	display: none;   
+	display: none;
 }
 
 html[dir] ._2bXVy
 {
-	border-color: #000000!important;   
+	border-color: #000000!important;
 }
 
 html[dir] .Zq3Mc
 {
     background-color: rgba(50, 50, 50, 0.92);
     box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);   
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
 html[dir] ._2fq0t
@@ -1183,7 +1183,7 @@ html[dir] ._1CSx9
 
 ._1CSx9 .Ghmsz
 {
-	color: #fefefe;   
+	color: #fefefe;
 }
 
 html[dir] ._14oqx + ._14oqx .DcItJ
@@ -1211,11 +1211,11 @@ html[dir] ._14oqx + ._14oqx .DcItJ
 }
 
 ._3cMIj {
-	color: #fff;   
+	color: #fff;
 }
 
 .Y9G3K {
-	color: rgba(255, 255, 255, 0.6);    
+	color: rgba(255, 255, 255, 0.6);
 }
 
 html[dir] .IKxkY ._12xX7 {
@@ -1239,7 +1239,7 @@ html[dir] ._212mA.j5Hcb
 
 ._3zVOv
 {
- 	color: #dedede;   
+ 	color: #dedede;
 }
 
 ._3QqKs
@@ -1293,65 +1293,65 @@ html[dir=ltr] .Uukb4 {
 }
 
 html[dir=ltr] ._2Cju4._2DNgV {
- 	background: none;   
+ 	background: none;
 }
 
 html[dir] ._16pld,
 html[dir] ._17b-C
 {
- 	background: #2e2e2e;   
+ 	background: #2e2e2e;
 }
 
 html[dir] .Sbkt2,
 html[dir] .QQnvT
 {
- 	background: #3e3e3e;   
+ 	background: #3e3e3e;
 }
 
 input
 {
- 	color: #cecece;   
+ 	color: #cecece;
 }
 
 html[dir] ._2rR_l
 {
- 	background: #3e3e3e;   
+ 	background: #3e3e3e;
 }
 
 html[dir] ._2vjPO
 {
- 	background: #303030!important;   
+ 	background: #303030!important;
 }
 
 html[dir] ._2ByZq
 {
- 	background: transparent;   
+ 	background: transparent;
 }
 
 html[dir] ._1iopp,
 html[dir] .YAPQk
 {
- 	background: #3e3e3e!important;   
+ 	background: #3e3e3e!important;
 }
 
 html[dir] ._2EXPL._13iu_
 {
-	background: #404040;   
+	background: #404040;
 }
 
 html[dir] ._2EXPL._13iu_:hover
 {
-	background: #515151;   
+	background: #515151;
 }
 
 ._2EXPL._13iu_ ._25Ooe
 {
- 	color: #e3e3e3;   
+ 	color: #e3e3e3;
 }
 
 ._2rXhY
 {
- 	color: rgba(255, 255, 255, 0.5);   
+ 	color: rgba(255, 255, 255, 0.5);
 }
 
 ._3gkvk
@@ -1364,18 +1364,18 @@ html[dir] ._2EXPL._13iu_:hover
 
 html[dir=ltr] ._1JbDr
 {
-    border-left: 0;   
+    border-left: 0;
 }
 
 html[dir] .YbzIC,
 html[dir] ._3tlsa
 {
-    background-color: transparent;   
+    background-color: transparent;
 }
 
 html[dir] ._3pkkz
 {
-    background-color: #000000;   
+    background-color: #000000;
 }
 
 html[dir] ._1Plpp {
@@ -1401,18 +1401,18 @@ html[dir] ._3Qh77
 
 ._3ataZ
 {
-    color: #a8adaf;   
+    color: #a8adaf;
 }
-    
+	
 html[dir] ._3kAJH,
 html[dir] .rstyJ,
 html[dir] ._3SX5f,
 html[dir] ._1RQfk
 {
-    background-color: #000000;   
+    background-color: #000000;
 }
 
-html[dir] ._1VeYA ._3PmkG, 
+html[dir] ._1VeYA ._3PmkG,
 html[dir] .C534L ._3PmkG,
 html[dir] ._1qYlt._1vWM8
 {
@@ -1424,7 +1424,7 @@ html[dir] ._1qUma,
 html[dir] ._2HBs4,
 html[dir] ._2y17h
 {
-    background-color: transparent;   
+    background-color: transparent;
 }
 
 html[dir] ._2y17h
@@ -1446,12 +1446,12 @@ html[dir] ._2y17h
 
 .LSBf-
 {
-    background: transparent;   
+    background: transparent;
 }
 
 html[dir] .message-in ._3JaNE ._2R8MP, html[dir] .message-in ._3JaNE ._2Ll5c
 {
-    background-color: transparent;   
+    background-color: transparent;
 }
 
 html[dir=ltr] ._3Ye_R
@@ -1461,7 +1461,7 @@ html[dir=ltr] ._3Ye_R
 
 html[dir] ._36Zz0._1exov
 {
-    background-color: #454545;   
+    background-color: #454545;
 }
 
 .TSSFW * {
@@ -1470,7 +1470,7 @@ html[dir] ._36Zz0._1exov
 
 body,
 #side {
-    background: #222;   
+    background: #222;
 }
 
 /* Left pannel item color */
@@ -1481,7 +1481,7 @@ html[dir] ._2UaNq {
 /* Left pannel item text color */
 html[dir] ._2UaNq ._3H4MS {
     color: #e3e3e3;
-    background: transparent;    
+    background: transparent;
 }
 /* Left pannel item selected color */
 html[dir] ._2UaNq._3mMX1,
@@ -1537,11 +1537,11 @@ html[dir] .eiCXe {
 }
 /** left panel item username */
 ._2I4wO {
-    color: #d3d3d3;    
+    color: #d3d3d3;
 }
 /** left panel filtered chats */
 html[dir] .r7sRK {
-    background: #222;   
+    background: #222;
     font-weight: bold;
 }
 /** right panel background */
@@ -1550,11 +1550,11 @@ html[dir] .NuujD {
 }
 /** left panel item separator */
 html[dir] ._2UaNq._3mMX1 ._2WP9Q, html[dir] ._2UaNq._3mMX1::after {
-    border: 0px;   
+    border: 0px;
 }
 /** chat text */
 ._1zGQT {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 /** chat quote */
 .quoted-mention {
@@ -1573,7 +1573,7 @@ html[dir] ._3fs0K {
 
 /** right panel bottom */
 html[dir] ._2i7Ej {
-    background: #000000;   
+    background: #000000;
 }
 
 /** right panel input */
@@ -1586,33 +1586,33 @@ html[dir] ._13mgZ {
 /** right panel top header text */
 ._19vo_,
 .i1XSV._3Q3ui {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 /** chat message mouse hover */
 html[dir="ltr"] ._15CAo._2Nkc4,
 html[dir="ltr"] ._15CAo._3EQsG {
-    background: transparent;   
+    background: transparent;
 }
 /** chat message time */
 ._3fnHB {
-    color: #c3c3c3;    
+    color: #c3c3c3;
 }
 
 /** can't reach phone background */
 .-peIt {
-    background: #000000;   
+    background: #000000;
 }
 
 /** right panel scroll circle */
 html[dir] ._3KRbU {
-    background: #333;   
+    background: #333;
 }
 span[data-icon=down] svg,
 span[data-icon$="status-image"] svg,
 span[data-icon$="status-check"] svg,
-span[data-icon$="status-time"] svg, 
+span[data-icon$="status-time"] svg,
 span[data-icon$=down-context] svg {
-    filter: none!important;   
+    filter: none!important;
 }
 span[data-icon$=down-context] svg path {
     fill: var(--icon-lighter);
@@ -1631,10 +1631,10 @@ html[dir] ._2hHc6 .Sl-9e:hover {
 /** group info panel */
 html[dir] .kiodY,
 ._1c8mz.rK2ei {
-    background: #000000;   
+    background: #000000;
 }
 html[dir] ._2LSbZ {
-    background: #434343;  
+    background: #434343;
 }
 /** group info panel item */
 html[dir] ._26JG5 {
@@ -1649,37 +1649,37 @@ html[dir] ._26JG5:hover {
 }
 /** group panel item color */
 ._6xQdq {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** panel font title color */
 .kiodY .kyJvR {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** add participant */
 html[dir] ._1KDYa,
 html[dir] .I72vi {
-    background: #000000;   
+    background: #000000;
 }
 html[dir] .I72vi {
-    display: none;   
+    display: none;
 }
 
 /** profile info text color */
 ._1qWhd {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** items hover after effect */
-html[dir] ._2UaNq._16_lP, 
+html[dir] ._2UaNq._16_lP,
 html[dir] ._2UaNq:hover {
-    background: #434343;   
+    background: #434343;
 }
 
 /** menu item hover effects */
-html[dir] ._2UaNq._3mMX1::after, 
-html[dir] ._2UaNq._16_lP::after, 
+html[dir] ._2UaNq._3mMX1::after,
+html[dir] ._2UaNq._16_lP::after,
 html[dir] ._2UaNq:hover::after,
 html[dir] ._26JG5:hover + ._26JG5::before {
     border-top: 0;
@@ -1687,7 +1687,7 @@ html[dir] ._26JG5:hover + ._26JG5::before {
 
 /** menu item lines */
 html[dir] ._26JG5 + ._26JG5 ._27Ie2 {
-    border-top: 0;   
+    border-top: 0;
 }
 
 /** emojis box */
@@ -1695,17 +1695,17 @@ html[dir] ._20KNO,
 html[dir] ._2Qm0c,
 html[dir] .QChXd,
 html[dir] .RxbUw {
-    background: #000000;    
+    background: #000000;
 }
 html[dir] ._2avTY {
-    background: #000000;   
+    background: #000000;
 }
 /** emojis box input */
 html[dir] ._2hMsh {
     background: #202020;
 }
 html[dir="ltr"] ._30sf0 {
-    border-left: 0;   
+    border-left: 0;
 }
 /* emojis box text light */
 ._2wn58 {
@@ -1718,13 +1718,13 @@ html[dir="ltr"] ._30sf0 {
 
 /** preview window */
 html[dir] ._2KgjI {
-    background: #222;    
+    background: #222;
 }
 /** preview window header */
-html[dir] .cGLoy, 
+html[dir] .cGLoy,
 html[dir] .cGLoy *
 {
-    background: #000000;   
+    background: #000000;
     color: #e3e3e3;
 }
 /** preview header icons */
@@ -1733,11 +1733,11 @@ html[dir] .cGLoy svg path {
 }
 /** preview buttons next prev */
 html[dir] ._3yth3 {
-    background: #434343;   
+    background: #434343;
 }
 /** preview bottom */
 html[dir] ._2AP3i {
-    border-top: 0;   
+    border-top: 0;
 }
 
 /** chat unread messages */
@@ -1751,26 +1751,26 @@ html[dir] ._3Xx0y {
 
 /** reach phone msg */
 html[dir] ._3RiLE {
-    background: #434343;   
+    background: #434343;
 }
 html[dir] ._3RiLE ._2tCE5,
 html[dir] ._3RiLE ._13HPh {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** chat preview box */
 html[dir] ._3qblR._1SsXF {
-    background: #000000;   
+    background: #000000;
 }
 html[dir] ._3qblR._1SsXF ._3RQIp,
 html[dir] ._3qblR._1SsXF ._2cR8w,
 html[dir] ._3qblR._1SsXF ._17hud {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** left panel group message */
 ._19RFN._1ovWX {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** attach preview */
@@ -1780,26 +1780,26 @@ html[dir] .NeQRT {
 
 /** chat message from non contact */
 html[dir="ltr"] ._1F9Ap._1F9Ap {
-    color: inherit!important;   
+    color: inherit!important;
 }
 
 /** chat quote */
 html[dir] ._1ebw2,
 html[dir] .OWYLS {
-    background: #000000;   
+    background: #000000;
 }
 
 /** chat @ tooltop */
 html[dir] ._2j-wI {
-    background: #000000;   
+    background: #000000;
 }
 html[dir] ._1Yz8K.XSeqj {
-    background: #434343;   
+    background: #434343;
 }
 
 /* user info name color **/
 ._1drsQ {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** delivery info title */
@@ -1812,7 +1812,7 @@ html[dir] ._2rGVQ {
 
 /** chat text string */
 ._12pGw strong {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** chat usernames globes */
@@ -1822,7 +1822,7 @@ html[dir] .message-in ._2Hp95 ._3Mf7Z, html[dir] .message-in ._2Hp95 ._3qAvH {
 
 /** chat forwarded */
 ._8fE-g {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** chat shared box */
@@ -1832,21 +1832,21 @@ html[dir] .Lhd3q.HNuTV {
 ._2IHkF,
 ._3JxFB,
 ._23MBZ {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 /** chat audio time */
 ._1FWQp {
-    color: #c3c3c3;    
+    color: #c3c3c3;
 }
 
 /** chat contact share */
 ._2LRBk {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 ._2UaNq._3mMX1 .xD91K {
-    color: #cecece;   
+    color: #cecece;
 }
 
 /** video length */
@@ -1894,13 +1894,13 @@ html[dir] ._13U-5 {
 
 /** chat list scroll */
 html[dir] ._1RYPC {
-    background-color: transparent;   
+    background-color: transparent;
 }
 
 /** text boxes **/
 html[dir] .message-out ._2Wx_5,
 html[dir] .message-in ._2Wx_5 {
-    background-color: #2d2d2d;   
+    background-color: #2d2d2d;
 }
 
 html[dir] ._1AUdd._1SsXF {
@@ -1918,7 +1918,7 @@ html[dir] ._3LG3B._2Wx_5 {
 }
 
 ._1NeOh span {
-    color: #000000;   
+    color: #000000;
 }
 
 ._1lxsr {
@@ -1926,12 +1926,12 @@ html[dir] ._3LG3B._2Wx_5 {
 }
 
 ._2UaNq._2ko65 .xD91K {
-    color: rgba(255,255,255,0.8);   
+    color: rgba(255,255,255,0.8);
 }
 
 ._2v02G, ._3uHCS {
     font-style: italic;
-    color: 
+    color:
     rgba(255,255,255,.45);
 }
 
@@ -1945,15 +1945,15 @@ html[dir] ._3tMyP {
 }
 
 html[dir] ._1w-mX {
-    background: #000000;    
+    background: #000000;
 }
 
 html[dir] ._2DxRd {
-    border: none;   
+    border: none;
 }
 
 html[dir] ._39cGk {
-    border-bottom: 1px solid #666;   
+    border-bottom: 1px solid #666;
 }
 
 html[dir] ._2DxRd,
@@ -1975,20 +1975,20 @@ html[dir] ._1YoG6 {
 }
 
 html[dir] ._1qNwV {
-    background: none;   
+    background: none;
 }
 
 .tzihe,
 .Qk8nZ {
-    color: #c3c3c3;   
+    color: #c3c3c3;
 }
 
 span[data-icon$="status-dblcheck"] svg {
-    filter: none!important;    
+    filter: none!important;
 }
 
 ._1NeOh span {
-    color: #e3e3e3;   
+    color: #e3e3e3;
 }
 
 ._1-iDe._1xXdX,
@@ -2016,7 +2016,7 @@ html,
 }
 
 #startup,
-#initial_startup {   
+#initial_startup {
     background: var(--background-default);
 }
 
@@ -2024,7 +2024,7 @@ html[dir] .message-in .MVjBr {
     background-color: var(--incoming-background)!important;
 }
 
-html[dir] ._1qhoQ.jZ4tp .YiYMT, 
+html[dir] ._1qhoQ.jZ4tp .YiYMT,
 html[dir] ._1qhoQ._2DNgV .YiYMT {
     background-color: var(--border-default);
 }
@@ -2065,11 +2065,11 @@ html[dir=ltr] .kA6WR._1lcup,
 html[dir=ltr] .kA6WR.N7Dyd {
     background: transparent;
 }
-    
+	
 ._2v8yt {
     color: inherit;
 }
-    
+	
 html[dir] .XFAMv {
     border-top: 0;
     border-bottom: 0;
@@ -2101,7 +2101,7 @@ html[dir] .XFAMv {
     --secondary-lighter: rgba(255, 255, 255, 0.8);
     --place-holder: #898989;
     --rich-text-panel-background: #000000;
-    --background-default-active: #2a2a2a;
+    --background-default-active: #000000;
     --panel-background-colored: #3a3a3a;
     --background-default-hover: #1b1b1b;
     --intro-background: #2c2c2c;
@@ -2123,7 +2123,7 @@ html[dir] .XFAMv {
     --system-message-text: #aeaeae;
     --panel-background-deep: #000000;
     --modal-backdrop-solid: #000000;
-    --modal-background: #3f3f3f;
+    --modal-background: #000000;
     --button-secondary-background-hover: #000000;
     --message-primary: #e3e3e3;
     --compose-primary: #e3e3e3;
@@ -2137,6 +2137,24 @@ html[dir] .XFAMv {
     --search-input-background: #202020;
     --unread-bar-background: inherit;
     --unread-background: #000000;
+    --panel-background-deeper: #000000;
+    --button-alternative-background: #202020;
+    --button-alternative: #e3e3e3;
+    --compose-panel-background-hover: #000000;
+}
+
+@media screen and (min-width: 1301px) {
+    .two ._2DPZK {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .app-wrapper-web ._3QfZd {
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
