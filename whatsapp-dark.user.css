@@ -2141,16 +2141,30 @@ html[dir] .XFAMv {
     --button-alternative-background: #202020;
     --button-alternative: #e3e3e3;
     --compose-panel-background-hover: #000000;
+    --bubble-meta-icon: #aeaeae;
+}
+
+html[dir=ltr] ._3qSKL._39Lm1,
+html[dir=ltr] ._3qSKL._3dGJA,
+html[dir=ltr] ._18oGY._1UyGr,
+html[dir=ltr] ._18oGY._2copG {
+   background: none;
 }
 
 @media screen and (min-width: 1301px) {
-    .two ._2DPZK {
+    .three ._2DPZK {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .two ._2i3T7 {
         max-width: 350px;
     }
 }
 
 @media screen and (min-width: 1441px) {
-    .app-wrapper-web ._3QfZd {
+    .app-wrapper-web ._1XkO3 {
         top: 0px;
         width: 100%;
         height: 100%;
@@ -2162,6 +2176,14 @@ html[dir=ltr] ._3AwwN
 {
     border-left: none;
 }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px){
+
+.two ._2i3T7 {
+    max-width: 350px;
+}
+
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1025px) {
