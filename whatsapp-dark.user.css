@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.2
-@homepageURL https://github.com/5jubsDelta/WhatsApp-Dark
-@updateURL   https://raw.githubusercontent.com/5jubsDelta/WhatsApp-Dark/master/whatsapp-dark.user.css
+@version     1.0.3
+@homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
+@updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.2 (2021-02-25) */
-/*! Repository: https://github.com/5jubsDelta/WhatsApp-Dark    */
+/*! WhatsApp Dark v1.0.3 (2021-01-30) */
+/*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
     ._1cDWi {
@@ -16,7 +16,7 @@
 }
 
 header.pane-header {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 #wrapper:before {
     background-color: #5b5b5b !important;
@@ -94,21 +94,21 @@ body {
 }
 .chatlist .active.location,
 .chatlist .chat.active {
-    background-color: #2d2d2d !important;
-    border-bottom: 1px solid #2d2d2d !important;
+    background-color: #000000 !important;
+    border-bottom: 1px solid #000000 !important;
 }
 .chatlist .chat:hover,
 .chatlist .location:hover {
-    background-color: #2d2d2d !important;
-    border-bottom: 0px solid #2d2d2d !important;
+    background-color: #000000 !important;
+    border-bottom: 0px solid #000000 !important;
 }
 .chatlist .chat:hover:before,
 .chatlist .location:hover:before {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .chatlist .active.location:before,
 .chatlist .chat.active:before {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .drawer-container-right,
 .pane-chat {
@@ -116,7 +116,7 @@ body {
     background-color: #000000 !important;
 }
 .pane-chat-header:after {
-    background-color: #2D2D2D;
+    background-color: #000000;
     border-bottom: 0px solid #000000 !important;
 }
 .subheader-search:after {
@@ -159,7 +159,7 @@ body {
     height: 281px !important;
 }
 .dropdown {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .dropdown .menu-item a {
     color: #898989 !important;
@@ -168,19 +168,19 @@ body {
     background-color: #000000 !important;
 }
 .menu-tabs-emoji {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .menu-tabs-emoji:before {
     background-color: #e7e7e7 !important;
 }
 .drawer-header {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .infinite-list.chatlist {
     background-color: #000000 !important;
 }
 .list-title {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
     color: #898989 !important;
 }
 .chat-title {
@@ -199,9 +199,9 @@ body {
     background-color: #000000 !important;
 }
 .drawer-section.well.animate-enter {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
-/* .drawer-section-expand.well.animate-enter {background-color:  #2d2d2d !important;} */
+/* .drawer-section-expand.well.animate-enter {background-color:  #000000 !important;} */
 
 .drawer-section-title {
     color: #ffffff !important;
@@ -213,7 +213,7 @@ body {
     color: #898989 !important;
 }
 .drawer-profile .drawer-header {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .drawer-title {
     color: #898989 !important;
@@ -236,12 +236,12 @@ body {
 }
 .chatlist .active.location:hover,
 .chatlist .chat.active:hover {
-    background-color: #2d2d2d !important;
-    border-bottom: 1px solid #2d2d2d !important;
+    background-color: #000000 !important;
+    border-bottom: 1px solid #000000 !important;
 }
 .chatlist .active.location:hover:before,
 .chatlist .chat.active:hover:before {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .media-panel {
     background-color: #000000 !important;
@@ -261,7 +261,7 @@ body {
     background-color: #5b5b5b !important;
 }
 .media-collection>span {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .drawer-media .drawer-body {
     background-color: #000000 !important;
@@ -279,16 +279,16 @@ body {
     background-color: #696969 !important;
 }
 .media-panel .btn-round {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .menu-tabs-emoji:before {
     background-color: #000000 !important;
 }
 #window {
-    background-color: #2D2D2D !important;
+    background-color: #000000 !important;
 }
 #platforms {
-    background-color: #2D2D2D !important;
+    background-color: #000000 !important;
 }
 .entry-title {
     color: #d5d5d5 !important;
@@ -315,7 +315,7 @@ body {
     background-color: #000000 !important;
 }
 .popup {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .popup-title {
     color: #898989 !important;
@@ -325,10 +325,10 @@ body {
 }
 select {
     color: #898989 !important;
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .toast {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
     color: #898989 !important;
 }
 .backdrop-transparent {
@@ -383,7 +383,7 @@ select {
     background-color: #000000 !important;
 }
 .media-content .btn-round {
-    background-color: #2d2d2d !important
+    background-color: #000000 !important
 }
 .intro-title {
     font-size: 28px !important;
@@ -455,10 +455,10 @@ a.button.button-contact {
     height: 18px;
 }
 .three .pane-chat-header {
-    border-left: 1px solid #2d2d2d
+    border-left: 1px solid #000000
 }
 .pane-chat-header {
-    border-left: 1px solid #2d2d2d
+    border-left: 1px solid #000000
 }
 .pane-chat-body {
     background-color: #000000 !important;
@@ -471,7 +471,7 @@ a.button.button-contact {
     border-left: 1px solid #000000
 }
 .three .pane-chat-header {
-    border-right: 1px solid #2d2d2d
+    border-right: 1px solid #000000
 }
 .three .pane-chat-footer {
     border-right: 1px solid #000000
@@ -497,7 +497,7 @@ a.button.button-contact {
     background-image: url(data:)!important;
 }
 .app-wrapper::after {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
     opacity: 0.72
 }
 .round:after {
@@ -508,7 +508,7 @@ a.button.button-contact {
     color: #898989 !important;
 }
 .drawer-header-small {
-    background-color: #2d2d2d !important;
+    background-color: #000000 !important;
 }
 .drawer-blocked .list-action {
     background-color: #000000 !important;
@@ -525,13 +525,13 @@ a.button.button-contact {
     background-image: url(http://tbs-gaming.de/design/wa-web/dark/dark-avatar.svg);
 }
 .drawer-header-popup {
-    background-color: #2d2d2d;
+    background-color: #000000;
 }
 .drawer {
-    background-color: #2d2d2d;
+    background-color: #000000;
 }
 .drawer .menu-tabs-lists {
-    background-color: #2d2d2d;
+    background-color: #000000;
 }
 .menu-tabs-lists:before {
     background-color: #60e86f;
@@ -554,7 +554,7 @@ a.button.button-contact {
     color: #ffffff !important;
 }
 .drawer-header-offset {
-    background-color: #2d2d2d !important
+    background-color: #000000 !important
 }
 .context.context-out {
     background: rgba(220, 248, 198, 0)
@@ -748,7 +748,7 @@ html[dir] .app-wrapper-web ._36Q2N {
 .compose-popup-panel,
 .btn-background
 {
-	background-color: #2d2d2d;
+	background-color: #000000;
 }
 
 .chatlist-panel-search,
@@ -934,7 +934,7 @@ html[dir] ._2MSJr
 
 html[dir] ._1CkkN:hover
 {
-	background-color: #1b1b1b;
+	background-color: #3c3c3c;
 }
 
 html[dir] ._2iSIf
@@ -1015,7 +1015,7 @@ html[dir] ._3oju3
 
 html[dir] ._2EXPL._1f1zm
 {
-   background-color: #000000;
+   background-color: #3f3f3f;
 }
 
 html[dir] ._2bXVy
@@ -1403,7 +1403,7 @@ html[dir] ._3Qh77
 {
     color: #a8adaf;
 }
-	
+
 html[dir] ._3kAJH,
 html[dir] .rstyJ,
 html[dir] ._3SX5f,
@@ -1486,7 +1486,7 @@ html[dir] ._2UaNq ._3H4MS {
 /* Left pannel item selected color */
 html[dir] ._2UaNq._3mMX1,
 html[dir] ._2UaNq._3mMX1 ._19RFN {
-    background: #2d2d2d;
+    background: #000000;
     color: #e3e3e3;
 }
 html[dir] ._2UaNq.hover,
@@ -1900,7 +1900,7 @@ html[dir] ._1RYPC {
 /** text boxes **/
 html[dir] .message-out ._2Wx_5,
 html[dir] .message-in ._2Wx_5 {
-    background-color: #2d2d2d;
+    background-color: #000000;
 }
 
 html[dir] ._1AUdd._1SsXF {
@@ -1914,7 +1914,7 @@ html[dir] ._1AUdd._1SsXF {
 }
 
 html[dir] ._3LG3B._2Wx_5 {
-    background-color: #2d2d2d!important;
+    background-color: #000000!important;
 }
 
 ._1NeOh span {
@@ -1941,7 +1941,7 @@ html[dir="ltr"] ._3fs0K {
 }
 
 html[dir] ._3tMyP {
-	background-color:#2d2d2d !important;
+	background-color:#000000 !important;
 }
 
 html[dir] ._1w-mX {
@@ -2065,17 +2065,22 @@ html[dir=ltr] .kA6WR._1lcup,
 html[dir=ltr] .kA6WR.N7Dyd {
     background: transparent;
 }
-	
+
 ._2v8yt {
     color: inherit;
 }
-	
+
 html[dir] .XFAMv {
     border-top: 0;
     border-bottom: 0;
 }
 
-:root {
+:root,
+._3Bc7H.KPJpj,
+.nBIOd._2T-Z0.tm2tP,
+._2mQtw ._1Yy4I,
+html[dir] ._3yWey.XKmj6,
+html[dir] ._3yWey {
     --font: #cecece;
     --secondary-light: rgba(255, 255, 255, 0.75);
     --incoming-background-deeper: #282828;
@@ -2084,14 +2089,14 @@ html[dir] .XFAMv {
     --icon-lighter: rgba(255, 255, 255, 0.5);
     --primary-strong: #e4e4e4;
     --background-default: #000000;
-    --drawer-background: #2d2d2d;
+    --drawer-background: #000000;
     --panel-background-lighter: #000000;
-    --incoming-background: #2d2d2d;
-    --outgoing-background: #2d2d2d;
+    --incoming-background: #000000;
+    --outgoing-background: #000000;
     --icon: #919191;
     --icon-strong: #cecece;
     --icon-strong-rgb: 206, 206, 206;
-    --media-viewer-background:#2d2d2d;
+    --media-viewer-background:#000000;
     --media-viewer-background-rgb: 52, 52, 52;
     --border-panel: #454545;
     --media-viewer-button-background: #1d1d1d;
@@ -2101,9 +2106,9 @@ html[dir] .XFAMv {
     --secondary-lighter: rgba(255, 255, 255, 0.8);
     --place-holder: #898989;
     --rich-text-panel-background: #000000;
-    --background-default-active: #000000;
+    --background-default-active: #3f3f3f;
     --panel-background-colored: #3a3a3a;
-    --background-default-hover: #1b1b1b;
+    --background-default-hover: #3c3c3c;
     --intro-background: #2c2c2c;
     --conversation-panel-background: #000000;
     --primary-stronger: #d5d5d5;
@@ -2113,9 +2118,9 @@ html[dir] .XFAMv {
     --panel-header-background: #000000;
     --border-list: transparent;
     --secondary-stronger: rgba(255, 255, 255, 0.9);
-    --dropdown-background: #2d2d2d;
+    --dropdown-background: #000000;
     --dropdown-background-hover: #3a3a3a;
-    --drawer-section-background: #2d2d2d;
+    --drawer-section-background: #000000;
     --shadow-light: #454545;
     --chatlist-icon: #aeaeae;
     --panel-background: #000000;
@@ -2123,7 +2128,7 @@ html[dir] .XFAMv {
     --system-message-text: #aeaeae;
     --panel-background-deep: #000000;
     --modal-backdrop-solid: #000000;
-    --modal-background: #000000;
+    --modal-background: #3f3f3f;
     --button-secondary-background-hover: #000000;
     --message-primary: #e3e3e3;
     --compose-primary: #e3e3e3;
@@ -2135,6 +2140,8 @@ html[dir] .XFAMv {
     --compose-input-border: #202020;
     --panel-input-background: #202020;
     --search-input-background: #202020;
+    --search-input-container-background: #000000;
+    --search-input-container-background-active: #000000;
     --unread-bar-background: inherit;
     --unread-background: #000000;
     --panel-background-deeper: #000000;
@@ -2142,6 +2149,21 @@ html[dir] .XFAMv {
     --button-alternative: #e3e3e3;
     --compose-panel-background-hover: #000000;
     --bubble-meta-icon: #aeaeae;
+    --chat-meta: #aeaeae;
+    --unread-timestamp: #d5d5d5;
+    --text-primary-strong: #fff;
+    --text-primary: rgba(255, 255,255, 0.87);
+    --text-title-color: #d5d5d5;
+    --text-section-title-color: rgba(255, 255,255, 0.87);
+    --link-preview: #d5d5d5;
+    --link-preview-lighter:rgba(255, 255,255, 0.87);
+    --border-stronger: transparent;
+    --conversation-panel-border: transparent;
+    --conversation-header-border: transparent;
+}
+
+[data-asset-chat-background-dark] {
+   background-image: none!important;
 }
 
 html[dir=ltr] ._3qSKL._39Lm1,
