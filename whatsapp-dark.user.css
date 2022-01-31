@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.3
+@version     1.0.4
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.3 (2021-01-30) */
+/*! WhatsApp Dark v1.0.4 (2021-01-31) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -1015,7 +1015,7 @@ html[dir] ._3oju3
 
 html[dir] ._2EXPL._1f1zm
 {
-   background-color: #3f3f3f;
+   background-color: #000000;
 }
 
 html[dir] ._2bXVy
@@ -2106,7 +2106,7 @@ html[dir] ._3yWey {
     --secondary-lighter: rgba(255, 255, 255, 0.8);
     --place-holder: #898989;
     --rich-text-panel-background: #000000;
-    --background-default-active: #3f3f3f;
+    --background-default-active: #000000;
     --panel-background-colored: #3a3a3a;
     --background-default-hover: #3c3c3c;
     --intro-background: #2c2c2c;
@@ -2128,7 +2128,7 @@ html[dir] ._3yWey {
     --system-message-text: #aeaeae;
     --panel-background-deep: #000000;
     --modal-backdrop-solid: #000000;
-    --modal-background: #3f3f3f;
+    --modal-background: #000000;
     --button-secondary-background-hover: #000000;
     --message-primary: #e3e3e3;
     --compose-primary: #e3e3e3;
