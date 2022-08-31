@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.6
+@version     1.0.7
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.6 (2022-08-29) */
+/*! WhatsApp Dark v1.0.7 (2022-08-31) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2190,6 +2190,11 @@
         }
     }
     
+	/*Remove UPDATE Message*/
+	._3z9_h {
+		display: none !important;
+	}
+	
     /*Define the STRECH of Principal Chat*/
     @media screen and (min-width: 1441px) {
         .app-wrapper-web ._1XkO3 {
