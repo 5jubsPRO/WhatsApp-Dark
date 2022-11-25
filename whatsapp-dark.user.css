@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.7
+@version     1.0.8
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.7 (2022-08-31) */
+/*! WhatsApp Dark v1.0.8 (2022-11-25) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2197,7 +2197,8 @@
 	
     /*Define the STRECH of Principal Chat*/
     @media screen and (min-width: 1441px) {
-        .app-wrapper-web ._1XkO3 {
+        .app-wrapper-web ._1jJ70,
+		.app-wrapper-web ._1XkO3 {
             margin: 0 0 0 0;
             top: 0px;
             width: 100%;
@@ -2205,9 +2206,10 @@
             height: 100%;
         }
     }
-        
+       
     @media screen and (min-width: 1441px) {
-    html[dir] .app-wrapper-web ._1XkO3 {
+    html[dir] .app-wrapper-web ._1jJ70,
+	html[dir] .app-wrapper-web ._1XkO3 {
             margin: 0 0 0 0;
             top: 0px;
             width: 100%;
