@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.9.2
+@version     1.0.9.3
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.9.2 (2024-03-21) */
+/*! WhatsApp Dark v1.0.9.3 (2024-04-17) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2082,6 +2082,7 @@
         border-bottom: 0;
     }
     
+	/*-->> Light Theme Variables <<-----------------------------------------------*/
     :root,
     ._3Bc7H.KPJpj,
     .nBIOd._2T-Z0.tm2tP,
@@ -2167,6 +2168,28 @@
         --border-stronger: transparent;
         --conversation-panel-border: transparent;
         --conversation-header-border: transparent;
+		/*-->> New Left Sidebar Variables <<-----------------------------------------------*/
+		--navbar-background: #000;
+		--navbar-border: #202020;
+		/*-->> Communities Background Variables <<-----------------------------------------*/
+		--drawer-background-deep: #000;
+		/*-->> Other Variables <<----------------------------------------------------------*/
+		--archived-chat-persistent-header-background: #000;
+		--button-reject-background: #000;
+		--chat-info-drawer-thumb-background: #000;
+		--compose-panel-background: #000;
+		--drawer-background: #000;
+		--drawer-gallery-background: #000;
+		--filters-item-background: #000;
+		--input-hover-background: #000;
+		--intro-background: #000;
+		--media-editor-video-caption-input-background: #000;
+		--panel-background: #000;
+		--panel-header-background: #000;
+		--product-thumb-background: #000;
+		--rich-text-panel-background: #000;
+		--search-input-background: #000;
+		--startup-background: #000;
     }
     
     [data-asset-chat-background-dark] {
