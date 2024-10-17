@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.9.4
+@version     1.0.9.5
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.9.4 (2024-04-30) */
+/*! WhatsApp Dark v1.0.9.5 (2024-10-17) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2088,7 +2088,7 @@
     .nBIOd._2T-Z0.tm2tP,
     ._2mQtw ._1Yy4I,
     html[dir] ._3yWey.XKmj6,
-    html[dir] ._3yWey {
+    html[dir] ._3yWey, .dark {
         --font: #cecece;
         --secondary-light: rgba(255, 255, 255, 0.75);
         --incoming-background-deeper: #282828;
@@ -2264,7 +2264,8 @@
 /*-->> Define the STRECH of Principal Chat <<-----------------------------------------------*/
     @media screen and (min-width: 1441px) {
         .app-wrapper-web ._1jJ70,
-		.app-wrapper-web ._1XkO3 {
+		.app-wrapper-web ._1XkO3,
+		.app-wrapper-web ._aigs:not(._as6h) {
             margin: 0 0 0 0;
             top: 0px;
             width: 100%;
@@ -2293,7 +2294,8 @@
     
 	@media not all and (display-mode: standalone) {
         @media screen and (min-width: 1700px) {
-            .app-wrapper-web ._aigs {
+            .app-wrapper-web ._aigs,
+			.app-wrapper-web ._aigs:not(._as6h) {
                 top: 0px;
                 width: initial;
                 max-width: initial;
@@ -2318,7 +2320,8 @@
 	}
 	
 	@media screen and (min-width: 1300px) {
-		.two ._aigw {
+		.two ._aigw,
+		.two ._aigw:not(._as6h) {
 			flex: 0 0 18%;
 			max-width: 30%;
 		}
