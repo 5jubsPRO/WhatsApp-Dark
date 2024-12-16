@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.9.5
+@version     1.0.9.6
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.9.5 (2024-10-17) */
+/*! WhatsApp Dark v1.0.9.6 (2024-12-16) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2297,7 +2297,7 @@
             .app-wrapper-web ._aigs,
 			.app-wrapper-web ._aigs:not(._as6h) {
                 top: 0px;
-                width: initial;
+                width: 0 auto;
                 max-width: initial;
                 height: calc(100%);
                 margin: 0 auto;
@@ -2308,9 +2308,10 @@
     
     @media not all and (display-mode: standalone) {
         @media screen and (min-width: 1441px) {
-            .app-wrapper-web ._aigs {
+            .app-wrapper-web ._aigs,
+			.app-wrapper-web ._aigs:not(._as6h) {
                 top: 0px;
-                width: initial;
+                width: 0 auto;
                 max-width: initial;
                 height: calc(100%);
                 margin: 0 auto;
