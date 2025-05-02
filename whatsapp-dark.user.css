@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.0.9.8
+@version     1.0.9.9
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.0.9.8 (2025-04-25) */
+/*! WhatsApp Dark v1.0.9.9 (2025-05-02) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2338,6 +2338,8 @@
 		--WDS-neutral-gray-850-RGB: 0, 0, 0;
 		--WDS-neutral-gray-900: #000;
 		--WDS-neutral-gray-900-RGB: 0, 0, 0;
+        --WDS-surface-default: #000;
+        --WDS-surface-default-RGB: 0, 0, 0;
 		--WDS-green-750: #071A14;
 		--WDS-green-750-RGB: 7, 26, 20;
 	}
