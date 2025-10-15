@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.1.0.0
+@version     1.1.0.1
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.1.0.0 (2025-05-02) */
+/*! WhatsApp Dark v1.1.0.1 (2025-10-15) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2342,8 +2342,17 @@
         --WDS-green-750-RGB: 7, 26, 20;
     }
 
-    .x1vmw6bp.x1vmw6bp, .x1vmw6bp.x1vmw6bp:root {
+    .x1vmw6bp.x1vmw6bp,
+    .x1vmw6bp.x1vmw6bp:root,
+    .x1buoxo4.x1buoxo4,
+    .x1buoxo4.x1buoxo4:root {
         --WDS-surface-default: #000;
         --WDS-surface-default-RGB: 0, 0, 0;
+        --WDS-surface-emphasized: #000;
+        --WDS-surface-emphasized-RGB: 0, 0, 0;
+        --WDS-systems-chat-background-wallpaper: #000;
+        --WDS-systems-chat-background-wallpaper-RGB: 0, 0, 0;
+        --WDS-background-wash-inset: #000;
+        --WDS-background-wash-inset-RGB: 0, 0, 0;
     }
 }
