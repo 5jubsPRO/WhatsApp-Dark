@@ -1,20 +1,20 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.1.0.1
+@version     1.1.0.2
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.1.0.1 (2025-10-15) */
+/*! WhatsApp Dark v1.1.0.2 (2025-12-03) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
     ._1cDWi {
         color: #e3e3e3;
     }
-    
+
     header.pane-header {
         background-color: #000000 !important;
     }
@@ -22,14 +22,18 @@
         background-color: #5b5b5b !important;
     }
     body {
-        background-image: -webkit-linear-gradient(top, #5b5b5b, #5b5b5b) !important;
-        font-family: 'Roboto Light', sans-serif !important;
+        background-image: -webkit-linear-gradient(
+            top,
+            #5b5b5b,
+            #5b5b5b
+        ) !important;
+        font-family: "Roboto Light", sans-serif !important;
         color: #ffffff;
     }
     .pane-chat-footer {
         background-color: #000000 !important;
     }
-    .chat-drag-cover>.chat,
+    .chat-drag-cover > .chat,
     .contact.chat {
         background-color: #222222 !important;
         color: lightgray;
@@ -59,21 +63,21 @@
     .cont-input-search .input-placeholder {
         color: var(--place-holder) !important;
     }
-    
+
     /*-->> Other Changes <<---------------------------------------------------------------------*/
 
     ::placeholder {
         color: var(--place-holder) !important;
     }
-    
+
     :-ms-input-placeholder {
         color: var(--place-holder) !important;
     }
-    
+
     ::-ms-input-placeholder {
         color: var(--place-holder) !important;
     }
-    
+
     .subheader-search.active .cont-input-search {
         border-color: #000000 !important;
     }
@@ -204,7 +208,7 @@
         background-color: #000000 !important;
     }
     /* .drawer-section-expand.well.animate-enter {background-color:  #000000 !important;} */
-    
+
     .drawer-section-title {
         color: #ffffff !important;
     }
@@ -262,7 +266,7 @@
     .app-wrapper::before {
         background-color: #5b5b5b !important;
     }
-    .media-collection>span {
+    .media-collection > span {
         background-color: #000000 !important;
     }
     .drawer-media .drawer-body {
@@ -340,52 +344,55 @@
         color: #898989 !important;
     }
     .select::before {
-        background-image: url(http://tbs-gaming.de/wa-web/pfeil.svg) !important
+        background-image: url(http://tbs-gaming.de/wa-web/pfeil.svg) !important;
     }
     .drawer .chatlist {
         background-color: #000000 !important;
     }
     .message-out .audio-track::-webkit-slider-runnable-track {
-        background-color: #000000 !important
+        background-color: #000000 !important;
     }
     .message-in .audio-track::-webkit-slider-runnable-track {
-        background-color: #000000 !important
+        background-color: #000000 !important;
     }
     .message-out .audio-state-played .audio-progress {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     .message-in .audio-state-played .audio-progress {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     .message-out .audio-state-played .audio-track::-webkit-slider-thumb {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     .message-in .audio-state-played .audio-track::-webkit-slider-thumb {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     .message-in .audio-state-default .audio-track::-webkit-slider-thumb {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     .message-out .audio-state-default .audio-track::-webkit-slider-thumb {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     .message-out .audio-state-default .audio-progress {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     .message-in .audio-state-default .audio-progress {
-        background-color: #989898 !important
+        background-color: #989898 !important;
     }
     @font-face {
-        font-family: 'Roboto Light' !important;
+        font-family: "Roboto Light" !important;
         font-style: normal !important;
         font-weight: 400 !important;
-        src: local('Roboto Light'), local('RobotoLight'), url(https://tbs-gaming.de/wa-web/Roboto-Light.ttf) format('ttf') !important;
+        src:
+            local("Roboto Light"),
+            local("RobotoLight"),
+            url(https://tbs-gaming.de/wa-web/Roboto-Light.ttf) format("ttf") !important;
     }
     .media-viewer {
         background-color: #000000 !important;
     }
     .media-content .btn-round {
-        background-color: #000000 !important
+        background-color: #000000 !important;
     }
     .intro-title {
         font-size: 28px !important;
@@ -408,7 +415,7 @@
         width: 45px !important;
         height: 45px !important;
     }
-    
+
     .location {
         padding: 10px 11px 8px 9px !important;
     }
@@ -416,7 +423,7 @@
     min-width: 745px !important;
     min-height: 300px !important;
     } */
-    
+
     .chat-title,
     .header-title,
     .location-main,
@@ -437,7 +444,7 @@
     .viewport {
         height: 100% !important;
     }
-    
+
     a.button.button-contact {
         color: rgb(137, 137, 137) !important;
     }
@@ -457,50 +464,66 @@
         height: 18px;
     }
     .three .pane-chat-header {
-        border-left: 1px solid #000000
+        border-left: 1px solid #000000;
     }
     .pane-chat-header {
-        border-left: 1px solid #000000
+        border-left: 1px solid #000000;
     }
     .pane-chat-body {
         background-color: #000000 !important;
-        border-left: 1px solid #000000
+        border-left: 1px solid #000000;
     }
     .pane-intro {
-        border-left: 1px solid #000000
+        border-left: 1px solid #000000;
     }
     .pane-chat-footer {
-        border-left: 1px solid #000000
+        border-left: 1px solid #000000;
     }
     .three .pane-chat-header {
-        border-right: 1px solid #000000
+        border-right: 1px solid #000000;
     }
     .three .pane-chat-footer {
-        border-right: 1px solid #000000
+        border-right: 1px solid #000000;
     }
     .three .pane-chat-body {
-        box-shadow: inset -1px 0 0 #000000
+        box-shadow: inset -1px 0 0 #000000;
     }
     .message-out .btn-context:after {
-        background: -webkit-linear-gradient(left, transparent, rgba(41, 41, 41, 0.13));
-        background: linear-gradient(to right, transparent, rgba(75, 75, 75, 0.13));
+        background: -webkit-linear-gradient(
+            left,
+            transparent,
+            rgba(41, 41, 41, 0.13)
+        );
+        background: linear-gradient(
+            to right,
+            transparent,
+            rgba(75, 75, 75, 0.13)
+        );
     }
     .message-in .btn-context:after {
-        background: -webkit-linear-gradient(left, transparent, rgba(41, 41, 41, 0.13));
-        background: linear-gradient(to right, transparent, rgba(75, 75, 75, 0.13));
+        background: -webkit-linear-gradient(
+            left,
+            transparent,
+            rgba(41, 41, 41, 0.13)
+        );
+        background: linear-gradient(
+            to right,
+            transparent,
+            rgba(75, 75, 75, 0.13)
+        );
     }
     .message .btn-context:after {
         height: 18px;
     }
     .pane-chat-tile-container {
-        background: transparent!important;
+        background: transparent !important;
     }
     .pane-chat-tile {
-        background-image: url(data:)!important;
+        background-image: url(data:) !important;
     }
     .app-wrapper::after {
         background-color: #000000 !important;
-        opacity: 0.72
+        opacity: 0.72;
     }
     .round:after {
         background: url(data:) center center no-repeat !important;
@@ -556,20 +579,19 @@
         color: #ffffff !important;
     }
     .drawer-header-offset {
-        background-color: #000000 !important
+        background-color: #000000 !important;
     }
     .context.context-out {
-        background: rgba(220, 248, 198, 0)
+        background: rgba(220, 248, 198, 0);
     }
     .context.context-in {
-        background: rgba(220, 248, 198, 0)
+        background: rgba(220, 248, 198, 0);
     }
-    
+
     .icon-msg-dblcheck-ack,
     .icon-status-dblcheck-ack,
     .icon-msg-time,
-    .icon-emoji-gifs
-    {
+    .icon-emoji-gifs {
         -webkit-filter: invert(0) !important;
         filter: invert(0) !important;
     }
@@ -653,8 +675,7 @@
         background-color: #000000 !important;
     }
     .pane-chat-empty,
-    ._9tCEa
-    {
+    ._9tCEa {
         background-color: #000000 !important;
     }
     .more {
@@ -665,14 +686,14 @@
         -webkit-filter: invert(0) brightness(0.8);
         filter: invert(0) brightness(0.8);
     }
-    
+
     .block-compose {
         background-color: #000000;
     }
-    .message-out>div>.tail-container {
+    .message-out > div > .tail-container {
         background-image: url("http://i.imgur.com/9dRZY3o.png") !important;
     }
-    .message-in>div>.tail-container {
+    .message-in > div > .tail-container {
         background-image: url("http://i.imgur.com/ZWUktRI.png") !important;
     }
     .multi-controls {
@@ -680,45 +701,45 @@
         background-color: #000000;
         color: #989898;
     }
-    
+
     .chatlist-panel-body {
         background-color: transparent;
     }
-    
+
     ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
+        width: 8px;
+        height: 8px;
     }
     ::-webkit-scrollbar-button {
-      width: 0px;
-      height: 0px;
+        width: 0px;
+        height: 0px;
     }
     ::-webkit-scrollbar-thumb {
-      background: #535353;
-      border: 0px none #ffffff;
-      border-radius: 50px;
+        background: #535353;
+        border: 0px none #ffffff;
+        border-radius: 50px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: #8c8c8c;
+        background: #8c8c8c;
     }
     ::-webkit-scrollbar-thumb:active {
-      background: #878787;
+        background: #878787;
     }
     ::-webkit-scrollbar-track {
-      background: #666666;
-      border: 0px none #ffffff;
-      border-radius: 50px;
+        background: #666666;
+        border: 0px none #ffffff;
+        border-radius: 50px;
     }
     ::-webkit-scrollbar-track:hover {
-      background: #666666;
+        background: #666666;
     }
     ::-webkit-scrollbar-track:active {
-      background: #333333;
+        background: #333333;
     }
     ::-webkit-scrollbar-corner {
-      background: transparent;
+        background: transparent;
     }
-    
+
     .app-wrapper-web .app,
     html[dir] .app-wrapper-web .h70RQ,
     html[dir] .app-wrapper-web ._36Q2N {
@@ -728,127 +749,127 @@
         top: 0px;
         border-radius: 3px;
     }
-    
+
     .msg-unread {
-        background-color: rgba(85,85,85,0.25);
+        background-color: rgba(85, 85, 85, 0.25);
     }
-    
+
     .msg-unread-body {
         color: #fff;
         background-color: #4d4d4d;
     }
-    
+
     .intro {
         background-color: transparent;
     }
-    
+
     .message-text strong,
     .media-caption strong {
-         color: #fff;
-    }
-    
-    .compose-popup-panel,
-    .btn-background
-    {
-        background-color: #000000;
-    }
-    
-    .chatlist-panel-search,
-    input
-    {
-     background-color: transparent!important;
-    }
-    
-    .pane-chat-header-subtitle
-    {
-       color: rgba(245, 245, 245, 0.6);
-    }
-    
-    .message-system
-    {
-         background-color: #666;
-    }
-    
-    .chat-meta
-    {
-        color: rgba(232, 231, 231, 0.4);
-    }
-    
-    .chatlist .chat-body, .chatlist .header-body
-    {
-         border: 0px;
-    }
-    
-    .section-header
-    {
-        background-color: transparent;
-    }
-    
-    .list-search .input-search
-    {
         color: #fff;
     }
-    
-    .chatlist .chat:hover:after, .chatlist .chat.hover:after, .chatlist .chat.active:after, .chatlist .chat.active:after
-    {
+
+    .compose-popup-panel,
+    .btn-background {
+        background-color: #000000;
+    }
+
+    .chatlist-panel-search,
+    input {
+        background-color: transparent !important;
+    }
+
+    .pane-chat-header-subtitle {
+        color: rgba(245, 245, 245, 0.6);
+    }
+
+    .message-system {
+        background-color: #666;
+    }
+
+    .chat-meta {
+        color: rgba(232, 231, 231, 0.4);
+    }
+
+    .chatlist .chat-body,
+    .chatlist .header-body {
+        border: 0px;
+    }
+
+    .section-header {
+        background-color: transparent;
+    }
+
+    .list-search .input-search {
+        color: #fff;
+    }
+
+    .chatlist .chat:hover:after,
+    .chatlist .chat.hover:after,
+    .chatlist .chat.active:after,
+    .chatlist .chat.active:after {
         border-top-color: #505050;
     }
-    
-    .message-text, .media-caption, .document-body, .dropdown-item-action
-    {
+
+    .message-text,
+    .media-caption,
+    .document-body,
+    .dropdown-item-action {
         color: #d3d3d3;
     }
-    
-    .dropdown-item-hover .dropdown-item-action
-    {
+
+    .dropdown-item-hover .dropdown-item-action {
         color: #333;
     }
-    
-    .message-system
-    {
+
+    .message-system {
         color: rgba(255, 255, 255, 0.95);
         text-shadow: none;
     }
-    
-    .list-action
-    {
+
+    .list-action {
         background-color: #222;
     }
-    
-    .list-action:hover
-    {
+
+    .list-action:hover {
         background-color: #2c2c2c;
     }
-    
-    .drawer-section.well, .well, .well-simple, .well-chat, .multi-vcard-dialog-contact
-    {
+
+    .drawer-section.well,
+    .well,
+    .well-simple,
+    .well-chat,
+    .multi-vcard-dialog-contact {
         background-color: #222;
     }
-    
-    .audio-duration
-    {
+
+    .audio-duration {
         color: rgba(245, 245, 245, 0.6);
     }
-    
-    .chat-subtitle.chat-subtitle-header
-    {
+
+    .chat-subtitle.chat-subtitle-header {
         color: rgba(245, 245, 245, 0.8);
     }
-    
-    .chatlist-panel .chatlist-panel-body
-    {
+
+    .chatlist-panel .chatlist-panel-body {
         background-color: transparent;
     }
-    
-    .Gd51Q._3sgkv
-    {
+
+    .Gd51Q._3sgkv {
         color: inherit;
     }
-    
-    html[dir=ltr] ._1i1U7.jZ4tp { background: transparent!important; }
-    html[dir=rtl] ._1i1U7.jZ4tp { background: transparent!important; }
-    html[dir=ltr] ._1i1U7._2DNgV { background: transparent!important; }
-    html[dir=rtl] ._1i1U7._2DNgV { background: transparent!important; }
+
+    html[dir="ltr"] ._1i1U7.jZ4tp {
+        background: transparent !important;
+    }
+    html[dir="rtl"] ._1i1U7.jZ4tp {
+        background: transparent !important;
+    }
+    html[dir="ltr"] ._1i1U7._2DNgV {
+        background: transparent !important;
+    }
+    html[dir="rtl"] ._1i1U7._2DNgV {
+        background: transparent !important;
+    }
     /*
     html[dir] ._3kN0h,
     .header-close svg,
@@ -865,621 +886,536 @@
         filter: invert(1) !important;
     }
     */
-    html[dir] .L89LI
-    {
+    html[dir] .L89LI {
         background-color: #666;
         color: #fff;
     }
-    
+
     .header-title,
-    .emoji-input.emoji-input-text-large .emoji-input-body
-    {
+    .emoji-input.emoji-input-text-large .emoji-input-body {
         color: #c6c6c6 !important;
     }
-    
-    .pane-chat-header:after
-    {
+
+    .pane-chat-header:after {
         z-index: -1;
     }
-    
-    html[dir] ._1mq8g
-    {
+
+    html[dir] ._1mq8g {
         background-color: transparent;
         border-top: 0px;
     }
-    
-    .mentions-positioning-container
-    {
+
+    .mentions-positioning-container {
         color: #333;
     }
-    
+
     html[dir] ._3qlW9,
     html[dir] ._1CkkN,
     html[dir] ._1AKfk,
     .drawer-chat-search .chatlist-panel-body,
     html[dir] ._2uLFU,
     html[dir] ._1ArIP,
-    html[dir] ._1CRb5
-    {
+    html[dir] ._1CRb5 {
         background-color: #222222;
     }
-    
-    .chat-body, .header-body
-    {
+
+    .chat-body,
+    .header-body {
         border-top: 0px;
     }
-    
-    .chat:hover:after, .chat.hover:after, .chat.active:after, .chat.active:after
-    {
+
+    .chat:hover:after,
+    .chat.hover:after,
+    .chat.active:after,
+    .chat.active:after {
         border-top-color: #666;
     }
-    
+
     .iYPsH,
     ._3LL06,
     ._1DZAH,
     .DYGf2,
-    html[dir=ltr] ._2dGjP
-    {
+    html[dir="ltr"] ._2dGjP {
         color: #c2c2c2;
     }
-    
-    html[dir=ltr] ._28zBA._14ou2
-    {
+
+    html[dir="ltr"] ._28zBA._14ou2 {
         background-color: #333;
     }
-    
-    html[dir] ._2B4d4
-    {
-        background-color: #202020;	
+
+    html[dir] ._2B4d4 {
+        background-color: #202020;
     }
-        
-    html[dir] ._2MSJr
-    {
+
+    html[dir] ._2MSJr {
         background-color: #202020;
         border-color: #666;
     }
-    
-    html[dir] ._1CkkN:hover
-    {
+
+    html[dir] ._1CkkN:hover {
         background-color: #3c3c3c;
     }
-    
-    html[dir] ._2iSIf
-    {
+
+    html[dir] ._2iSIf {
         background-color: #09d261;
         color: black;
     }
-    
-    .bubble-text
-    {
+
+    .bubble-text {
         color: #ccc;
     }
-    
-    .input-emoji-search
-    {
-        color: #666!important;
+
+    .input-emoji-search {
+        color: #666 !important;
     }
-    
-    html[dir=ltr] ._2Cju4.jZ4tp
-    {
+
+    html[dir="ltr"] ._2Cju4.jZ4tp {
         background: none;
     }
-    
-    .Bmrty
-    {
+
+    .Bmrty {
         color: rgba(255, 255, 255, 0.6);
     }
-    
-    .message, .media-caption
-    {
+
+    .message,
+    .media-caption {
         font-size: 12px;
         color: #ccc;
     }
-    
-    html[dir] .gQzdc._3sdhb
-    {
+
+    html[dir] .gQzdc._3sdhb {
         background-color: #3d3d3d;
     }
-    
-    html[dir] .gQzdc._3sdhb input
-    {
+
+    html[dir] .gQzdc._3sdhb input {
         color: #ccc;
     }
-    
-    .message strong, .media-caption strong
-    {	color: #ccc;
+
+    .message strong,
+    .media-caption strong {
+        color: #ccc;
     }
-    
-    html[dir] .FstZn
-    {
+
+    html[dir] .FstZn {
         color: #cecece;
     }
-    
+
     html[dir] ._2EXPL,
-    html[dir] ._1NrpZ
-    {
+    html[dir] ._1NrpZ {
         background-color: #2c2c2c;
         color: #cecece;
     }
-    
-    html[dir] ._3CPl4
-    {
-        background-color: #2c2c2c!important;
+
+    html[dir] ._3CPl4 {
+        background-color: #2c2c2c !important;
         color: #cecece;
     }
-    
+
     html[dir] ._3auIg,
-    html[dir] ._3AwwN
-    {
+    html[dir] ._3AwwN {
         background-color: #3e3e3e;
         color: #cecece;
     }
-    
-    html[dir] ._3oju3
-    {
-           background-color: #2c2c2c;
+
+    html[dir] ._3oju3 {
+        background-color: #2c2c2c;
     }
-    
-    html[dir] ._2EXPL._1f1zm
-    {
-       background-color: #000000;
+
+    html[dir] ._2EXPL._1f1zm {
+        background-color: #000000;
     }
-    
-    html[dir] ._2bXVy
-    {
-        background-color: #1f1f1f!important;
+
+    html[dir] ._2bXVy {
+        background-color: #1f1f1f !important;
     }
-    
+
     html[dir] ._2EXPL._1f1zm:after,
     html[dir] ._2EXPL:hover ._3j7s9,
-    html[dir] ._2EXPL._3df_h ._3j7s9
-    {
+    html[dir] ._2EXPL._3df_h ._3j7s9 {
         border-top-color: #666;
     }
-    
+
     html[dir] ._2EXPL:hover:after,
     html[dir] ._2EXPL._3df_h:after,
-    html[dir] ._2EXPL._1f1zm:after
-    {
+    html[dir] ._2EXPL._1f1zm:after {
         border-top: 1px solid #666;
     }
-    
-    html[dir] ._2EXPL:hover
-    {
+
+    html[dir] ._2EXPL:hover {
         background-color: #3e3e3e;
     }
-    
-    body
-    {
+
+    body {
         font-size: 12px;
     }
-    
+
     ._2EXPL._1f1zm ._1AwDx,
     ._25Ooe,
     ._1AwDx,
     ._2zCDG,
-    .CxUIE ._3Bxar
-    {
-         color: #cecece;
+    .CxUIE ._3Bxar {
+        color: #cecece;
         font-size: 14px;
     }
-    
+
     html[dir] ._1GX8_,
-    html[dir] ._2jVLL
-    {
+    html[dir] ._2jVLL {
         background-color: transparent;
     }
-    
-    html[dir] ._3j7s9
-    {
+
+    html[dir] ._3j7s9 {
         border-top: transparent;
     }
-    
+
     ._3Bxar,
-    ._7HWvs
-    {
-         color: #cecece;
+    ._7HWvs {
+        color: #cecece;
         font-size: 14px;
     }
-    
+
     ._3NFp9,
-    ._1bX-5
-    {
+    ._1bX-5 {
         font-size: 12px;
     }
-    
+
     ._2EXPL.CxUIE ._1AwDx,
-    .CxUIE ._25Ooe
-    {
+    .CxUIE ._25Ooe {
         color: #fff;
     }
-    
+
     html[dir] ._2EYZY,
     html[dir] ._1qdni,
     html[dir] ._3ETD3,
-    html[dir] ._1CnF3
-    {
-         background-color: #2e2e2e;
-    }
-    
-    html[dir] .R0lQ6
-    {
-         background-color: #3e3e3e;
-    }
-    
-    html[dir] .mnt6B,
-    html[dir] ._3XpR2
-    {
-         background-color: #222;
-    }
-    
-    .Gz6Af
-    {
-         color: #cecece;
-    }
-    
-    html[dir] ._2-ptl ._27BA_,
-    html[dir] ._3WvAg ._27BA_
-    {
-        background-color: rgba(0,0,0,0.2);
-    }
-    
-    html[dir=ltr] ._1fkhx
-    {
-         border-left: 1px solid #666;
-    }
-    
-    html[dir] ._3gUiM
-    {
-        background-color: rgba(0, 0, 0, 0.70);
-    }
-    
-    ._228tA
-    {
-        overflow: hidden;
-    }
-    
-    html[dir] ._1drQ-,
-    html[dir] ._1dGTK,
-    html[dir] .r3Nu1
-    {
+    html[dir] ._1CnF3 {
         background-color: #2e2e2e;
     }
-    
-    html[dir] .wDFKR
-    {
+
+    html[dir] .R0lQ6 {
+        background-color: #3e3e3e;
+    }
+
+    html[dir] .mnt6B,
+    html[dir] ._3XpR2 {
+        background-color: #222;
+    }
+
+    .Gz6Af {
+        color: #cecece;
+    }
+
+    html[dir] ._2-ptl ._27BA_,
+    html[dir] ._3WvAg ._27BA_ {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    html[dir="ltr"] ._1fkhx {
+        border-left: 1px solid #666;
+    }
+
+    html[dir] ._3gUiM {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    ._228tA {
+        overflow: hidden;
+    }
+
+    html[dir] ._1drQ-,
+    html[dir] ._1dGTK,
+    html[dir] .r3Nu1 {
+        background-color: #2e2e2e;
+    }
+
+    html[dir] .wDFKR {
         background-color: #444746;
     }
-    
+
     ._3_7SH,
-    ._3_7SH strong
-    {
+    ._3_7SH strong {
         color: #d2d2d2;
         font-size: 12px;
     }
-    
+
     .message-out .tail-container.highlight,
     .message-out .tail-container,
     html[dir] .tail-container,
-    html[dir] .tail-container.highlight
-    {
+    html[dir] .tail-container.highlight {
         display: none;
     }
-    
-    html[dir] ._2bXVy
-    {
-        border-color: #000000!important;
+
+    html[dir] ._2bXVy {
+        border-color: #000000 !important;
     }
-    
-    html[dir] .Zq3Mc
-    {
+
+    html[dir] .Zq3Mc {
         background-color: rgba(50, 50, 50, 0.92);
         box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
         text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
     }
-    
-    html[dir] ._2fq0t
-    {
+
+    html[dir] ._2fq0t {
         background-color: #3e3e3e;
     }
-    
-    html[dir] ._1CSx9
-    {
+
+    html[dir] ._1CSx9 {
         background-color: #1e1e1e;
     }
-    
-    ._1CSx9 .Ghmsz
-    {
+
+    ._1CSx9 .Ghmsz {
         color: #fefefe;
     }
-    
-    html[dir] ._14oqx + ._14oqx .DcItJ
-    {
+
+    html[dir] ._14oqx + ._14oqx .DcItJ {
         border-top: 1px solid #3e3e3e;
     }
-    
+
     .two .k1feT {
-        -webkit-flex: 0 0 25%!important;
-        flex: 0 0 25%!important;
+        -webkit-flex: 0 0 25% !important;
+        flex: 0 0 25% !important;
     }
-    
+
     .two ._1Iexl {
-        -webkit-flex: 0 0 75%!important;
-        flex: 0 0 75%!important;
+        -webkit-flex: 0 0 75% !important;
+        flex: 0 0 75% !important;
     }
-    
+
     .two ._3kF8H,
     .two ._3A_Ft,
     #side,
     .three ._2NwAr,
     ._1-iDe._1xXdX,
     .two ._2NwAr {
-        max-width: 350px!important;
+        max-width: 350px !important;
     }
-    
+
     ._3cMIj {
         color: #fff;
     }
-    
+
     .Y9G3K {
         color: rgba(255, 255, 255, 0.6);
     }
-    
+
     html[dir] .IKxkY ._12xX7 {
         background-color: #383838;
     }
-    
+
     html[dir] ._3AwwN:after {
         background-color: rgba(33, 33, 33, 0.14);
         border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     }
-    
+
     html[dir] ._3gUiM._6vIwv {
         background-color: #1e1e1e;
     }
-    
+
     html[dir] .BDk0G,
-    html[dir] ._212mA.j5Hcb
-    {
+    html[dir] ._212mA.j5Hcb {
         background-color: #383838;
     }
-    
-    ._3zVOv
-    {
-         color: #dedede;
+
+    ._3zVOv {
+        color: #dedede;
     }
-    
-    ._3QqKs
-    {
+
+    ._3QqKs {
         color: rgba(255, 255, 255, 0.6);
     }
-    
+
     html[dir] ._28ZV1 {
         background-color: #2c2c2c;
     }
-    
+
     html[dir] ._1sGGp._2nFG1 {
         background-color: #333;
     }
-    
+
     ._16y6t {
         -webkit-flex: none;
         flex: none;
         font-size: 12px;
         color: rgba(255, 255, 255, 0.8);
     }
-    
+
     html[dir] ._2lwig._2nFG1 {
         background-color: #383838;
     }
-    
+
     html[dir] ._3nuGo {
         background-color: #262626;
     }
-    
+
     html[dir] ._1ypOz {
         background-color: #333;
     }
-    
-    ._1ypOz
-    {
+
+    ._1ypOz {
         color: #fff;
         font-weight: bold;
     }
-    
+
     html[dir] ._3v_lq.j5Hcb {
         background-color: #3e3e3e;
     }
-    
+
     html[dir] .Uukb4 {
         background-color: #2c2c2c;
     }
-    
-    html[dir=ltr] .Uukb4 {
-         border-left: 0px solid black;
+
+    html[dir="ltr"] .Uukb4 {
+        border-left: 0px solid black;
     }
-    
-    html[dir=ltr] ._2Cju4._2DNgV {
-         background: none;
+
+    html[dir="ltr"] ._2Cju4._2DNgV {
+        background: none;
     }
-    
+
     html[dir] ._16pld,
-    html[dir] ._17b-C
-    {
-         background: #2e2e2e;
+    html[dir] ._17b-C {
+        background: #2e2e2e;
     }
-    
+
     html[dir] .Sbkt2,
-    html[dir] .QQnvT
-    {
-         background: #3e3e3e;
+    html[dir] .QQnvT {
+        background: #3e3e3e;
     }
-    
-    input
-    {
-         color: #cecece;
+
+    input {
+        color: #cecece;
     }
-    
-    html[dir] ._2rR_l
-    {
-         background: #3e3e3e;
+
+    html[dir] ._2rR_l {
+        background: #3e3e3e;
     }
-    
-    html[dir] ._2vjPO
-    {
-         background: #303030!important;
+
+    html[dir] ._2vjPO {
+        background: #303030 !important;
     }
-    
-    html[dir] ._2ByZq
-    {
-         background: transparent;
+
+    html[dir] ._2ByZq {
+        background: transparent;
     }
-    
+
     html[dir] ._1iopp,
-    html[dir] .YAPQk
-    {
-         background: #3e3e3e!important;
+    html[dir] .YAPQk {
+        background: #3e3e3e !important;
     }
-    
-    html[dir] ._2EXPL._13iu_
-    {
+
+    html[dir] ._2EXPL._13iu_ {
         background: #404040;
     }
-    
-    html[dir] ._2EXPL._13iu_:hover
-    {
+
+    html[dir] ._2EXPL._13iu_:hover {
         background: #515151;
     }
-    
-    ._2EXPL._13iu_ ._25Ooe
-    {
-         color: #e3e3e3;
+
+    ._2EXPL._13iu_ ._25Ooe {
+        color: #e3e3e3;
     }
-    
-    ._2rXhY
-    {
-         color: rgba(255, 255, 255, 0.5);
+
+    ._2rXhY {
+        color: rgba(255, 255, 255, 0.5);
     }
-    
-    ._3gkvk
-    {
+
+    ._3gkvk {
         color: #d9d9d9;
     }
-    
-    
-    
-    
-    html[dir=ltr] ._1JbDr
-    {
+
+    html[dir="ltr"] ._1JbDr {
         border-left: 0;
     }
-    
+
     html[dir] .YbzIC,
-    html[dir] ._3tlsa
-    {
+    html[dir] ._3tlsa {
         background-color: transparent;
     }
-    
-    html[dir] ._3pkkz
-    {
+
+    html[dir] ._3pkkz {
         background-color: #000000;
     }
-    
+
     html[dir] ._1Plpp {
-        background-color: #202020!important;
-        border-color: #4b4b4b!important;
-        border-radius: 8px!important;
+        background-color: #202020 !important;
+        border-color: #4b4b4b !important;
+        border-radius: 8px !important;
     }
-    
-    html[dir] ._1XwnX
-    {
+
+    html[dir] ._1XwnX {
         background-color: #3e3e3e;
     }
-    
-    html[dir] ._3_R6X
-    {
-        background-color: rgba(0,0,0,0.8);
+
+    html[dir] ._3_R6X {
+        background-color: rgba(0, 0, 0, 0.8);
     }
-    
-    html[dir] ._3Qh77
-    {
-            border-top: solid 1px #202020;
+
+    html[dir] ._3Qh77 {
+        border-top: solid 1px #202020;
     }
-    
-    ._3ataZ
-    {
+
+    ._3ataZ {
         color: #a8adaf;
     }
-    
+
     html[dir] ._3kAJH,
     html[dir] .rstyJ,
     html[dir] ._3SX5f,
-    html[dir] ._1RQfk
-    {
+    html[dir] ._1RQfk {
         background-color: #000000;
     }
-    
+
     html[dir] ._1VeYA ._3PmkG,
     html[dir] .C534L ._3PmkG,
-    html[dir] ._1qYlt._1vWM8
-    {
+    html[dir] ._1qYlt._1vWM8 {
         background-color: rgba(0, 0, 0, 0.2);
     }
-    
+
     html[dir] ._3o_Eb,
     html[dir] ._1qUma,
     html[dir] ._2HBs4,
-    html[dir] ._2y17h
-    {
+    html[dir] ._2y17h {
         background-color: transparent;
     }
-    
-    html[dir] ._2y17h
-    {
+
+    html[dir] ._2y17h {
         border-left: 0px;
     }
-    
-    ._1vDUw
-    {
+
+    ._1vDUw {
         background-color: #2e2e2e;
     }
-    
+
     ._15aTv,
     ._3XrHh,
-    ._34D8D
-    {
+    ._34D8D {
         color: inherit;
     }
-    
-    .LSBf-
-    {
+
+    .LSBf- {
         background: transparent;
     }
-    
-    html[dir] .message-in ._3JaNE ._2R8MP, html[dir] .message-in ._3JaNE ._2Ll5c
-    {
+
+    html[dir] .message-in ._3JaNE ._2R8MP,
+    html[dir] .message-in ._3JaNE ._2Ll5c {
         background-color: transparent;
     }
-    
-    html[dir=ltr] ._3Ye_R
-    {
-        color: inherit!important;
+
+    html[dir="ltr"] ._3Ye_R {
+        color: inherit !important;
     }
-    
-    html[dir] ._36Zz0._1exov
-    {
+
+    html[dir] ._36Zz0._1exov {
         background-color: #454545;
     }
-    
+
     .TSSFW * {
-        background: #454545!important;
+        background: #454545 !important;
     }
-    
+
     body,
     #side {
         background: #222;
     }
-    
+
     /*-->> Left pannel item color <<------------------------------------------------------------*/
     html[dir] ._2UaNq {
         background: #222;
@@ -1516,18 +1452,18 @@
     html[dir] ._2WP9Q {
         border-top: 0px;
     }
-    
+
     /*-->> right panel background color <<------------------------------------------------------*/
     html[dir] .iFKgT {
         background: #000000;
     }
-    
+
     /*-->> left panel header <<-----------------------------------------------------------------*/
     html[dir] ._3Jvyf {
         background: #000000;
         color: #e3e3e3;
     }
-    
+
     /*-->> left panel search <<-----------------------------------------------------------------*/
     html[dir] ._2HS9r {
         background: #000000;
@@ -1536,7 +1472,7 @@
     html[dir] .ZP8RM._19OGD {
         background: #333;
     }
-    
+
     /*-->> left panel search input <<-----------------------------------------------------------*/
     html[dir] .eiCXe {
         background: #202020;
@@ -1556,7 +1492,8 @@
         background: #000000;
     }
     /*-->> left panel item separator <<---------------------------------------------------------*/
-    html[dir] ._2UaNq._3mMX1 ._2WP9Q, html[dir] ._2UaNq._3mMX1::after {
+    html[dir] ._2UaNq._3mMX1 ._2WP9Q,
+    html[dir] ._2UaNq._3mMX1::after {
         border: 0px;
     }
     /*-->> chat text <<-------------------------------------------------------------------------*/
@@ -1571,25 +1508,25 @@
     html[dir] .a7otO {
         background: #434343;
     }
-    
+
     /*-->> right panel top header <<------------------------------------------------------------*/
     html[dir] ._3fs0K {
         background: #000000;
         color: #e3e3e3;
     }
-    
+
     /*-->> right panel bottom <<----------------------------------------------------------------*/
     html[dir] ._2i7Ej {
         background: #000000;
     }
-    
+
     /*-->> right panel input <<-----------------------------------------------------------------*/
     html[dir] ._13mgZ {
         background: #202020;
         color: #e3e3e3;
         border: 0;
     }
-    
+
     /*-->> right panel top header text <<-------------------------------------------------------*/
     ._19vo_,
     .i1XSV._3Q3ui {
@@ -1604,27 +1541,27 @@
     ._3fnHB {
         color: #c3c3c3;
     }
-    
+
     /*-->> can't reach phone background <<------------------------------------------------------*/
     .-peIt {
         background: #000000;
     }
-    
+
     /*-->> right panel scroll circle <<---------------------------------------------------------*/
     html[dir] ._3KRbU {
         background: #333;
     }
-    span[data-icon=down] svg,
+    span[data-icon="down"] svg,
     span[data-icon$="status-image"] svg,
     span[data-icon$="status-check"] svg,
     span[data-icon$="status-time"] svg,
-    span[data-icon$=down-context] svg {
-        filter: none!important;
+    span[data-icon$="down-context"] svg {
+        filter: none !important;
     }
-    span[data-icon$=down-context] svg path {
+    span[data-icon$="down-context"] svg path {
         fill: var(--icon-lighter);
     }
-    
+
     /*-->> right panel menu <<------------------------------------------------------------------*/
     html[dir] ._2hHc6,
     html[dir] ._2hHc6 .Sl-9e {
@@ -1634,7 +1571,7 @@
     html[dir] ._2hHc6 .Sl-9e:hover {
         background: #434343;
     }
-    
+
     /*-->> group info panel <<------------------------------------------------------------------*/
     html[dir] .kiodY,
     ._1c8mz.rK2ei {
@@ -1658,12 +1595,12 @@
     ._6xQdq {
         color: #e3e3e3;
     }
-    
+
     /*-->> panel font title color <<------------------------------------------------------------*/
     .kiodY .kyJvR {
         color: #e3e3e3;
     }
-    
+
     /*-->> add participant <<-------------------------------------------------------------------*/
     html[dir] ._1KDYa,
     html[dir] .I72vi {
@@ -1672,18 +1609,18 @@
     html[dir] .I72vi {
         display: none;
     }
-    
+
     /*-->> profile info text color <<-----------------------------------------------------------*/
     ._1qWhd {
         color: #e3e3e3;
     }
-    
+
     /*-->> items hover after effect <<----------------------------------------------------------*/
     html[dir] ._2UaNq._16_lP,
     html[dir] ._2UaNq:hover {
         background: #434343;
     }
-    
+
     /*-->> menu item hover effects <<-----------------------------------------------------------*/
     html[dir] ._2UaNq._3mMX1::after,
     html[dir] ._2UaNq._16_lP::after,
@@ -1691,12 +1628,12 @@
     html[dir] ._26JG5:hover + ._26JG5::before {
         border-top: 0;
     }
-    
+
     /*-->> menu item lines <<-------------------------------------------------------------------*/
     html[dir] ._26JG5 + ._26JG5 ._27Ie2 {
         border-top: 0;
     }
-    
+
     /*-->> emojis box <<------------------------------------------------------------------------*/
     html[dir] ._20KNO,
     html[dir] ._2Qm0c,
@@ -1722,15 +1659,14 @@
     ._2wn58 svg path {
         fill: #009688;
     }
-    
+
     /*-->> preview window <<--------------------------------------------------------------------*/
     html[dir] ._2KgjI {
         background: #222;
     }
     /*-->> preview window header <<-------------------------------------------------------------*/
     html[dir] .cGLoy,
-    html[dir] .cGLoy *
-    {
+    html[dir] .cGLoy * {
         background: #000000;
         color: #e3e3e3;
     }
@@ -1746,7 +1682,7 @@
     html[dir] ._2AP3i {
         border-top: 0;
     }
-    
+
     /*-->> chat unread messages <<--------------------------------------------------------------*/
     html[dir] ._1lo-H {
         background-color: #434343;
@@ -1755,7 +1691,7 @@
     html[dir] ._3Xx0y {
         background-color: #222;
     }
-    
+
     /*-->> reach phone msg <<-------------------------------------------------------------------*/
     html[dir] ._3RiLE {
         background: #434343;
@@ -1764,7 +1700,7 @@
     html[dir] ._3RiLE ._13HPh {
         color: #e3e3e3;
     }
-    
+
     /*-->> chat preview box <<-----------------------------------------------------------------*/
     html[dir] ._3qblR._1SsXF {
         background: #000000;
@@ -1774,28 +1710,28 @@
     html[dir] ._3qblR._1SsXF ._17hud {
         color: #e3e3e3;
     }
-    
+
     /*-->> left panel group message <<---------------------------------------------------------*/
     ._19RFN._1ovWX {
         color: #e3e3e3;
     }
-    
+
     /*-->> attach preview <<-------------------------------------------------------------------*/
     html[dir] .NeQRT {
         background-color: #000000;
     }
-    
+
     /*-->> chat message from non contact <<----------------------------------------------------*/
     html[dir="ltr"] ._1F9Ap._1F9Ap {
-        color: inherit!important;
+        color: inherit !important;
     }
-    
+
     /*-->> chat quote <<-----------------------------------------------------------------------*/
     html[dir] ._1ebw2,
     html[dir] .OWYLS {
         background: #000000;
     }
-    
+
     /*-->> chat @ tooltop <<-------------------------------------------------------------------*/
     html[dir] ._2j-wI {
         background: #000000;
@@ -1803,12 +1739,12 @@
     html[dir] ._1Yz8K.XSeqj {
         background: #434343;
     }
-    
+
     /*-->> info name color <<-------------------------------------------------------------------*/
     ._1drsQ {
         color: #e3e3e3;
     }
-    
+
     /*-->> delivery info title <<---------------------------------------------------------------*/
     html[dir] ._2AJf5,
     html[dir] ._19xqi,
@@ -1816,22 +1752,23 @@
     html[dir] ._2rGVQ {
         background: transparent;
     }
-    
+
     /*-->> chat text string <<------------------------------------------------------------------*/
     ._12pGw strong {
         color: #e3e3e3;
     }
-    
+
     /*-->> chat usernames globes <<-------------------------------------------------------------*/
-    html[dir] .message-in ._2Hp95 ._3Mf7Z, html[dir] .message-in ._2Hp95 ._3qAvH {
+    html[dir] .message-in ._2Hp95 ._3Mf7Z,
+    html[dir] .message-in ._2Hp95 ._3qAvH {
         background: #000000;
     }
-    
+
     /*-->> chat forwarded <<--------------------------------------------------------------------*/
     ._8fE-g {
         color: #e3e3e3;
     }
-    
+
     /*-->> chat shared box <<-------------------------------------------------------------------*/
     html[dir] .Lhd3q.HNuTV {
         background: #434343;
@@ -1841,56 +1778,56 @@
     ._23MBZ {
         color: #e3e3e3;
     }
-    
+
     /*-->> chat audio time <<-------------------------------------------------------------------*/
     ._1FWQp {
         color: #c3c3c3;
     }
-    
+
     /*-->> chat contact share <<----------------------------------------------------------------*/
     ._2LRBk {
         color: #e3e3e3;
     }
-    
+
     ._2UaNq._3mMX1 .xD91K {
         color: #cecece;
     }
-    
+
     /*-->> video length <<----------------------------------------------------------------------*/
     ._2HHbr {
         color: rgba(255, 255, 255, 0.6);
     }
-    
+
     /*-->> audio length <<----------------------------------------------------------------------*/
     ._3HwRC {
-       color: rgba(255, 255, 255, 0.45);
+        color: rgba(255, 255, 255, 0.45);
     }
-    
+
     /*-->> document share <<--------------------------------------------------------------------*/
     html[dir] ._3cukQ ._1mrMQ {
-        background-color:rgba(50, 50, 50, 0.6);
+        background-color: rgba(50, 50, 50, 0.6);
     }
-    
+
     /*-->> document share <<--------------------------------------------------------------------*/
     ._1o0MN {
-        color:rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, 0.7);
     }
-    
+
     /*-->> last message <<----------------------------------------------------------------------*/
     ._0LqQ {
         color: rgba(255, 255, 255, 0.4);
     }
-    
+
     /*-->> timestamp new message <<-------------------------------------------------------------*/
     ._2ko65 ._0LqQ {
         color: #d2d2d2;
     }
-    
+
     /*-->> me link preview <<-------------------------------------------------------------------*/
     html[dir] ._2nZ2E.HNuTV {
         background-color: #434343;
     }
-    
+
     /*-->> search <<----------------------------------------------------------------------------*/
     html[dir] .ZP8RM {
         background-color: #000000;
@@ -1898,197 +1835,200 @@
     html[dir] ._13U-5 {
         background-color: #000000;
     }
-    
+
     /*-->> chat list scroll <<------------------------------------------------------------------*/
     html[dir] ._1RYPC {
         background-color: transparent;
     }
-    
+
     /*-->> text boxes <<------------------------------------------------------------------------*/
     html[dir] .message-out ._2Wx_5,
     html[dir] .message-in ._2Wx_5 {
         background-color: #000000;
     }
-    
+
     html[dir] ._1AUdd._1SsXF {
         background-color: #404040;
     }
-    
+
     ._3RQIp,
     ._2cR8w,
     ._17hud {
         color: #d2d2d2;
     }
-    
+
     html[dir] ._3LG3B._2Wx_5 {
-        background-color: #000000!important;
+        background-color: #000000 !important;
     }
-    
+
     ._1NeOh span {
         color: #000000;
     }
-    
+
     ._1lxsr {
         color: #c3c3c3;
     }
-    
+
     ._2UaNq._2ko65 .xD91K {
-        color: rgba(255,255,255,0.8);
+        color: rgba(255, 255, 255, 0.8);
     }
-    
-    ._2v02G, ._3uHCS {
+
+    ._2v02G,
+    ._3uHCS {
         font-style: italic;
-        color:
-        rgba(255,255,255,.45);
+        color: rgba(255, 255, 255, 0.45);
     }
-    
+
     html[dir="ltr"] ._3fs0K {
         border-left: none;
         border-right: none;
     }
-    
+
     html[dir] ._3tMyP {
-        background-color:#000000 !important;
+        background-color: #000000 !important;
     }
-    
+
     html[dir] ._1w-mX {
         background: #000000;
     }
-    
+
     html[dir] ._2DxRd {
         border: none;
     }
-    
+
     html[dir] ._39cGk {
         border-bottom: 1px solid #666;
     }
-    
+
     html[dir] ._2DxRd,
     html[dir] ._8-yzK {
         background: #666;
     }
-    
+
     html[dir] ._13U-5._2dEsb ._F7Vk {
         color: #c3c3c3;
     }
-    
+
     ._1H6CJ._1rqO1,
     html[dir] ._1YoG6 {
         background: #222;
     }
-    
+
     ._2MyYN {
         color: #c3c3c3;
     }
-    
+
     html[dir] ._1qNwV {
         background: none;
     }
-    
+
     .tzihe,
     .Qk8nZ {
         color: #c3c3c3;
     }
-    
+
     span[data-icon$="status-dblcheck"] svg {
-        filter: none!important;
+        filter: none !important;
     }
-    
+
     ._1NeOh span {
         color: #e3e3e3;
     }
-    
+
     ._1-iDe._1xXdX,
     .two ._2NwAr {
         flex-basis: 25%;
         max-width: 380px;
     }
-    
+
     html,
-    ._3_7SH, ._3_7SH strong,
-    ._3NFp9, ._1bX-5 {
+    ._3_7SH,
+    ._3_7SH strong,
+    ._3NFp9,
+    ._1bX-5 {
         font-size: 14px;
     }
-    
+
     .ba6sz {
         color: var(--icon);
     }
-    
+
     ._3L0q3._167q._36Zz0 {
         color: var(--font);
     }
-    
+
     .rRAIq {
-        background: var(--panel-background-lighter)!important;
+        background: var(--panel-background-lighter) !important;
     }
-    
+
     #startup,
     #initial_startup {
         background: var(--background-default);
     }
-    
+
     html[dir] .message-in .MVjBr {
-        background-color: var(--incoming-background)!important;
+        background-color: var(--incoming-background) !important;
     }
-    
+
     html[dir] ._1qhoQ.jZ4tp .YiYMT,
     html[dir] ._1qhoQ._2DNgV .YiYMT {
         background-color: var(--border-default);
     }
-    
+
     html[dir] ._3xpD_,
     html[dir] ._1TM40,
     ._2wPpw {
         background-color: var(--compose-background);
     }
     html[dir] ._16YR8 {
-        background-color: rgba(var(--panel-background-rgb),.2);
+        background-color: rgba(var(--panel-background-rgb), 0.2);
     }
-    
+
     html[dir] ._1E1g0 {
         text-shadow: none;
     }
-    
-    html[dir=ltr] ._1q11a._2nBjH {
+
+    html[dir="ltr"] ._1q11a._2nBjH {
         background: none;
     }
-    
+
     html[dir] .iBZ7z {
         background-color: #000000;
         color: #aeaeae;
     }
-    
+
     html[dir] ._9WQEN {
         background: transparent;
         border: 0px;
     }
-    
+
     ._1qPwk {
-        color: rgba(255,255,255,0.3);
+        color: rgba(255, 255, 255, 0.3);
     }
-    
+
     html[dir="ltr"] ._1q11a._4tndQ,
-    html[dir=ltr] .kA6WR._1lcup,
-    html[dir=ltr] .kA6WR.N7Dyd {
+    html[dir="ltr"] .kA6WR._1lcup,
+    html[dir="ltr"] .kA6WR.N7Dyd {
         background: transparent;
     }
-    
+
     ._2v8yt {
         color: inherit;
     }
-    
+
     html[dir] .XFAMv {
         border-top: 0;
         border-bottom: 0;
     }
-    
-	/*-->> Light Theme Variables <<-----------------------------------------------*/
+
+    /*-->> Light Theme Variables <<-----------------------------------------------*/
     :root,
     ._3Bc7H.KPJpj,
     .nBIOd._2T-Z0.tm2tP,
     ._2mQtw ._1Yy4I,
     html[dir] ._3yWey.XKmj6,
-    html[dir] ._3yWey, .dark {
+    html[dir] ._3yWey,
+    .dark {
         --font: #cecece;
         --secondary-light: rgba(255, 255, 255, 0.75);
         --incoming-background-deeper: #282828;
@@ -2104,7 +2044,7 @@
         --icon: #919191;
         --icon-strong: #cecece;
         --icon-strong-rgb: 206, 206, 206;
-        --media-viewer-background:#000000;
+        --media-viewer-background: #000000;
         --media-viewer-background-rgb: 52, 52, 52;
         --border-panel: #454545;
         --media-viewer-button-background: #1d1d1d;
@@ -2160,76 +2100,77 @@
         --chat-meta: #aeaeae;
         --unread-timestamp: #d5d5d5;
         --text-primary-strong: #fff;
-        --text-primary: rgba(255, 255,255, 0.87);
+        --text-primary: rgba(255, 255, 255, 0.87);
         --text-title-color: #d5d5d5;
-        --text-section-title-color: rgba(255, 255,255, 0.87);
+        --text-section-title-color: rgba(255, 255, 255, 0.87);
         --link-preview: #d5d5d5;
-        --link-preview-lighter:rgba(255, 255,255, 0.87);
+        --link-preview-lighter: rgba(255, 255, 255, 0.87);
         --border-stronger: transparent;
         --conversation-panel-border: transparent;
         --conversation-header-border: transparent;
-		/*-->> New Left Sidebar Variables <<-----------------------------------------------*/
-		--navbar-background: #000;
-		--navbar-border: #202020;
-		/*-->> Communities Background Variables <<-----------------------------------------*/
-		--drawer-background-deep: #000;
-		/*-->> Other Variables <<----------------------------------------------------------*/
-		--archived-chat-persistent-header-background: #000;
-		--button-reject-background: #000;
-		--chat-info-drawer-thumb-background: #000;
-		--compose-panel-background: #000;
-		--drawer-background: #000;
-		--drawer-gallery-background: #000;
-		--filters-item-background: #000;
-		--input-hover-background: #000;
-		--intro-background: #000;
-		--media-editor-video-caption-input-background: #000;
-		--panel-background: #000;
-		--panel-header-background: #000;
-		--product-thumb-background: #000;
-		--rich-text-panel-background: #000;
-		--search-input-background: #000;
-		--startup-background: #000;
-		--filters-container-background: black;
-/*-->> Styles for the new Dark Layout Version 25/04/2025 <<-----------------------------------------------*/			
-		--outgoing-background-deeper: #1a1a1a;
+        /*-->> New Left Sidebar Variables <<-----------------------------------------------*/
+        --navbar-background: #000;
+        --navbar-border: #202020;
+        /*-->> Communities Background Variables <<-----------------------------------------*/
+        --drawer-background-deep: #000;
+        /*-->> Other Variables <<----------------------------------------------------------*/
+        --archived-chat-persistent-header-background: #000;
+        --button-reject-background: #000;
+        --chat-info-drawer-thumb-background: #000;
+        --compose-panel-background: #000;
+        --drawer-background: #000;
+        --drawer-gallery-background: #000;
+        --filters-item-background: #000;
+        --input-hover-background: #000;
+        --intro-background: #000;
+        --media-editor-video-caption-input-background: #000;
+        --panel-background: #000;
+        --panel-header-background: #000;
+        --product-thumb-background: #000;
+        --rich-text-panel-background: #000;
+        --search-input-background: #000;
+        --startup-background: #000;
+        --filters-container-background: black;
+        /*-->> Styles for the new Dark Layout Version 25/04/2025 <<-----------------------------------------------*/
+        --outgoing-background-deeper: #1a1a1a;
     }
-    
+
     [data-asset-chat-background-dark] {
-       background-image: none!important;
+        background-image: none !important;
     }
-    
-    html[dir=ltr] ._3qSKL._39Lm1,
-    html[dir=ltr] ._3qSKL._3dGJA,
-    html[dir=ltr] ._18oGY._1UyGr,
-    html[dir=ltr] ._18oGY._2copG {
-       background: none;
+
+    html[dir="ltr"] ._3qSKL._39Lm1,
+    html[dir="ltr"] ._3qSKL._3dGJA,
+    html[dir="ltr"] ._18oGY._1UyGr,
+    html[dir="ltr"] ._18oGY._2copG {
+        background: none;
     }
-    
+
     @media screen and (min-width: 1301px) {
         .three ._2DPZK {
             max-width: 350px;
         }
     }
-    
+
     @media screen and (min-width: 1301px) {
         .two ._2i3T7 {
             max-width: 350px;
         }
     }
-    
-	/*-->> Remove UPDATE Message <<-------------------------------------------------------------*/
-	._3z9_h, ._3P5VY {
-		display: none !important;
-	}
+
+    /*-->> Remove UPDATE Message <<-------------------------------------------------------------*/
+    ._3z9_h,
+    ._3P5VY {
+        display: none !important;
+    }
 
     /*-->> Define the color of the BackGround Components <<-------------------------------------*/
     @media screen and (min-width: 1441px) {
-    html[dir] ._2c_rw:after {
+        html[dir] ._2c_rw:after {
             background-color: #000000;
         }
     }
-    
+
     @media screen and (min-width: 1441px) {
         ._5XBCY {
             top: 0;
@@ -2239,35 +2180,33 @@
             box-shadow: 0 0 0 0;
         }
     }
-    
+
     html[dir] ._5XBCY {
-            background-color: #000000;
-        }
-    
+        background-color: #000000;
+    }
+
     @media screen and (max-width: 1024px) {
-		html[dir=ltr] ._3AwwN
-		{
-			border-left: none;
-		}
+        html[dir="ltr"] ._3AwwN {
+            border-left: none;
+        }
     }
-    
-    @media screen and (min-width: 1025px) and (max-width: 1300px){    
-		.two ._2i3T7 {
-			max-width: 350px;
-		}    
+
+    @media screen and (min-width: 1025px) and (max-width: 1300px) {
+        .two ._2i3T7 {
+            max-width: 350px;
+        }
     }
-    
+
     @media screen and (max-width: 1300px) and (min-width: 1025px) {
-		html[dir=ltr] ._3AwwN
-		{
-			border-left: none;
-		}
+        html[dir="ltr"] ._3AwwN {
+            border-left: none;
+        }
     }
-/*-->> Define the STRECH of Principal Chat <<-----------------------------------------------*/
+    /*-->> Define the STRECH of Principal Chat <<-----------------------------------------------*/
     @media screen and (min-width: 1441px) {
         .app-wrapper-web ._1jJ70,
-		.app-wrapper-web ._1XkO3,
-		.app-wrapper-web ._aigs:not(._as6h) {
+        .app-wrapper-web ._1XkO3,
+        .app-wrapper-web ._aigs:not(._as6h) {
             margin: 0 0 0 0;
             top: 0px;
             width: 100%;
@@ -2275,62 +2214,64 @@
             height: 100%;
         }
     }
-       
+
     @media screen and (min-width: 1441px) {
-    html[dir] .app-wrapper-web ._1jJ70,
-	html[dir] .app-wrapper-web ._1XkO3 {
+        html[dir] .app-wrapper-web ._1jJ70,
+        html[dir] .app-wrapper-web ._1XkO3 {
             margin: 0 0 0 0;
             top: 0px;
             width: 100%;
-			max-width: none;
+            max-width: none;
             height: 100%;
         }
-    }	
-	
-	@media screen and (min-width: 1300px) {
-		.three ._3RGKj, .three ._1xFRo, .two ._3RGKj {
-			flex: 0 0 auto;
-			max-width: 30%;
-		}
     }
-    
-	@media not all and (display-mode: standalone) {
+
+    @media screen and (min-width: 1300px) {
+        .three ._3RGKj,
+        .three ._1xFRo,
+        .two ._3RGKj {
+            flex: 0 0 auto;
+            max-width: 30%;
+        }
+    }
+
+    @media not all and (display-mode: standalone) {
         @media screen and (min-width: 1700px) {
             .app-wrapper-web ._aigs,
-			.app-wrapper-web ._aigs:not(._as6h) {
+            .app-wrapper-web ._aigs:not(._as6h) {
                 top: 0px;
                 width: 0 auto;
                 max-width: initial;
                 height: calc(100%);
                 margin: 0 auto;
-                box-shadow: 0 6px 18px rgba(var(--shadow-rgb), .05);
+                box-shadow: 0 6px 18px rgba(var(--shadow-rgb), 0.05);
             }
-		}
-	}
-    
+        }
+    }
+
     @media not all and (display-mode: standalone) {
         @media screen and (min-width: 1441px) {
             .app-wrapper-web ._aigs,
-			.app-wrapper-web ._aigs:not(._as6h) {
+            .app-wrapper-web ._aigs:not(._as6h) {
                 top: 0px;
                 width: 0 auto;
                 max-width: initial;
                 height: calc(100%);
                 margin: 0 auto;
-                box-shadow: 0 6px 18px rgba(var(--shadow-rgb), .05);
+                box-shadow: 0 6px 18px rgba(var(--shadow-rgb), 0.05);
             }
-		}
-	}
-	
-	@media screen and (min-width: 1300px) {
-		.two ._aigw,
-		.two ._aigw:not(._as6h),
+        }
+    }
+
+    @media screen and (min-width: 1300px) {
+        .two ._aigw,
+        .two ._aigw:not(._as6h),
         .two ._aigw:not(._as6h):not(._asu3) {
-			flex: 0 0 18%;
-			max-width: 30%;
-		}
-	}
-/*-->> Styles for the new Dark Layout Version 25/04/2025 <<-----------------------------------------------*/	
+            flex: 0 0 18%;
+            max-width: 30%;
+        }
+    }
+    /*-->> Styles for the new Dark Layout Version 25/04/2025 <<-----------------------------------------------*/
     :root {
         --WDS-neutral-gray-800: #1a1a1a;
         --WDS-neutral-gray-800-RGB: 26, 26, 26;
@@ -2338,14 +2279,16 @@
         --WDS-neutral-gray-850-RGB: 0, 0, 0;
         --WDS-neutral-gray-900: #000;
         --WDS-neutral-gray-900-RGB: 0, 0, 0;
-        --WDS-green-750: #071A14;
+        --WDS-green-750: #071a14;
         --WDS-green-750-RGB: 7, 26, 20;
     }
 
     .x1vmw6bp.x1vmw6bp,
     .x1vmw6bp.x1vmw6bp:root,
     .x1buoxo4.x1buoxo4,
-    .x1buoxo4.x1buoxo4:root {
+    .x1buoxo4.x1buoxo4:root,
+    .xa3rncp.xa3rncp,
+    .xa3rncp.xa3rncp:root {
         --WDS-surface-default: #000;
         --WDS-surface-default-RGB: 0, 0, 0;
         --WDS-surface-emphasized: #000;
