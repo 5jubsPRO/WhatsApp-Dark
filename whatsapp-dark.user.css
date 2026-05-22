@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        WhatsApp Dark Contrasted
 @namespace   SpartanJ-5jubs
-@version     1.1.0.3
+@version     1.1.0.4
 @homepageURL https://github.com/5jubsPRO/WhatsApp-Dark
 @updateURL   https://raw.githubusercontent.com/5jubsPRO/WhatsApp-Dark/master/whatsapp-dark.user.css
 @license     CC0 - Public Domain
 @author      SpartanJ-5jubs
 ==/UserStyle== */
-/*! WhatsApp Dark v1.1.0.3 (2026-02-20) */
+/*! WhatsApp Dark v1.1.0.4 (2026-05-22) */
 /*! Repository: https://github.com/5jubsPRO/WhatsApp-Dark    */
 /*! License:    https://creativecommons.org/share-your-work/public-domain/cc0/ */
 @-moz-document domain("web.whatsapp.com") {
@@ -2271,7 +2271,12 @@
             max-width: 30%;
         }
     }
-    /*-->> Styles for the new Dark Layout Version 25/04/2025 <<-----------------------------------------------*/
+	
+	.x18dvir5 {
+		flex: 0 0 18%;
+	}
+	
+    /*-->> Styles for the new Dark Layout Version <<-----------------------------------------------*/
     :root {
         --WDS-neutral-gray-800: #1a1a1a;
         --WDS-neutral-gray-800-RGB: 26, 26, 26;
@@ -2294,7 +2299,9 @@
 	.x1q80dvb:root,
 	.x28tbhy.x28tbhy:root,
     .xa3rncp.xa3rncp,
-    .xa3rncp.xa3rncp:root {
+    .xa3rncp.xa3rncp:root,
+	.x1umy8rd.x1umy8rd,
+	.x1umy8rd.x1umy8rd:root {
         --WDS-surface-default: #000;
         --WDS-surface-default-RGB: 0, 0, 0;
         --WDS-surface-emphasized: #000;
@@ -2306,5 +2313,6 @@
 		--WDS-background-wash-plain: #000;
 		--app-background-deeper: #000;
 		--WDS-warm-gray-800: #000;
+		--WDS-background-elevated-wash-inset: #000;
     }
 }
